@@ -1,702 +1,1994 @@
-[
-  {
-    "post_number": 1,
-    "image_prompt_en": "Minimalist dark background with blockchain network nodes, flowing particles in electric blue, centered text 'BITBON', professional, modern, 4K, square format for Instagram",
-    "style_keywords": ["blockchain", "tech", "minimalist", "modern", "professional"],
-    "color_scheme": "Dark grey background with electric blue nodes and golden accents",
-    "composition": "Centered network diagram with text overlay"
-  },
-  {
-    "post_number": 2,
-    "image_prompt_en": "Digital reputation system visualization, ascending bars with golden gradient, AURA score display, abstract human silhouettes, dark theme, tech aesthetic, 8K Instagram square",
-    "style_keywords": ["reputation", "metrics", "digital", "growth", "professional"],
-    "color_scheme": "Black background with golden bars and cyan highlights",
-    "composition": "Vertical bars in center with floating metrics"
-  },
-  {
-    "post_number": 3,
-    "image_prompt_en": "Cryptocurrency wallet interface, minimalist design, floating digital coins with blockchain symbols, dark mode, neon green accents, professional typography, square 4K",
-    "style_keywords": ["wallet", "crypto", "digital assets", "modern", "secure"],
-    "color_scheme": "Dark navy with neon green and blue highlights",
-    "composition": "Wallet interface in center with floating assets"
-  },
-  {
-    "post_number": 4,
-    "image_prompt_en": "Web 4.0 infrastructure visualization, interconnected nodes, flowing data streams in electric blue, futuristic design, dark background, bold centered text, 4K Instagram",
-    "style_keywords": ["web4", "infrastructure", "future", "connected", "tech"],
-    "color_scheme": "Dark charcoal with electric blue nodes and cyan flows",
-    "composition": "Network diagram spreading from center outward"
-  },
-  {
-    "post_number": 5,
-    "image_prompt_en": "Digital asset management dashboard, sleek interface, multiple graphs and charts in blue-green gradient, dark minimalist design, professional, square 8K",
-    "style_keywords": ["dashboard", "management", "analytics", "professional", "modern"],
-    "color_scheme": "Near-black background with blue-green gradients and gold text",
-    "composition": "Dashboard layout with multiple widgets"
-  },
-  {
-    "post_number": 6,
-    "image_prompt_en": "Blockchain transaction flow visualization, circular patterns with glowing nodes, data moving through geometric shapes, dark theme, electric blue and purple, square 4K",
-    "style_keywords": ["transactions", "flow", "blockchain", "secure", "efficient"],
-    "color_scheme": "Dark background with blue, purple, and gold accents",
-    "composition": "Circular flow pattern from center"
-  },
-  {
-    "post_number": 7,
-    "image_prompt_en": "Future of finance concept, holographic elements, stacked digital coins, gradient blue to gold, dark minimalist background, professional, Instagram square 4K",
-    "style_keywords": ["finance", "future", "innovation", "digital", "wealth"],
-    "color_scheme": "Black with blue-to-gold gradient and cyan accents",
-    "composition": "Stacked coins in center with holographic effects"
-  },
-  {
-    "post_number": 8,
-    "image_prompt_en": "Digital trust system, interconnected nodes forming abstract human figure, glowing connections in cyan and gold, dark background, professional, square 8K",
-    "style_keywords": ["trust", "security", "connection", "community", "transparent"],
-    "color_scheme": "Dark charcoal with cyan nodes and golden connections",
-    "composition": "Human silhouette made of network nodes"
-  },
-  {
-    "post_number": 9,
-    "image_prompt_en": "Tokenization process visualization, abstract geometric shapes transforming, blue gradient effects, dark minimalist, bold typography, professional tech aesthetic, 4K square",
-    "style_keywords": ["tokenization", "transformation", "digital", "modern", "innovative"],
-    "color_scheme": "Dark background with blue gradient and gold highlights",
-    "composition": "Transformation sequence in center-right"
-  },
-  {
-    "post_number": 10,
-    "image_prompt_en": "Global network connection, world map with glowing points, blue data streams connecting continents, dark background, futuristic, professional typography, Instagram 4K",
-    "style_keywords": ["global", "connected", "network", "international", "distributed"],
-    "color_scheme": "Dark navy with electric blue connections and gold accents",
-    "composition": "World map centered with network overlay"
-  },
-  {
-    "post_number": 11,
-    "image_prompt_en": "Smart contract verification badge, hexagonal geometric design, glowing elements in blue and cyan, checkmark symbol, dark professional background, square 4K",
-    "style_keywords": ["smart contracts", "verified", "secure", "automated", "trusted"],
-    "color_scheme": "Black background with cyan hexagon and blue accents",
-    "composition": "Centered hexagonal badge with verification elements"
-  },
-  {
-    "post_number": 12,
-    "image_prompt_en": "Decentralized system architecture, multiple interconnected spheres, blue-green gradient flows, dark minimal design, professional, typography included, 8K Instagram",
-    "style_keywords": ["decentralized", "architecture", "distributed", "transparent", "modern"],
-    "color_scheme": "Dark charcoal with blue-green nodes and cyan flows",
-    "composition": "Multiple spheres arranged in organic pattern"
-  },
-  {
-    "post_number": 13,
-    "image_prompt_en": "Digital economy growth chart, ascending line graph in gold, stacked coins rising, dark background, professional financial aesthetic, square 4K",
-    "style_keywords": ["growth", "financial", "profits", "stable", "ascending"],
-    "color_scheme": "Dark background with golden graph line and blue coins",
-    "composition": "Ascending graph from lower-left to upper-right"
-  },
-  {
-    "post_number": 14,
-    "image_prompt_en": "Reputation builder interface, progress rings stacking upward, AURA system visualization, cyan and gold colors, dark theme, professional design, 4K square",
-    "style_keywords": ["reputation", "progress", "achievement", "tracking", "professional"],
-    "color_scheme": "Black background with cyan rings and golden center",
-    "composition": "Stacked rings in center column"
-  },
-  {
-    "post_number": 15,
-    "image_prompt_en": "Blockchain security shield, geometric protective design, interconnected pattern, blue and gold accents, dark minimalist, professional tech typography, Instagram 8K",
-    "style_keywords": ["security", "protection", "blockchain", "safe", "trustworthy"],
-    "color_scheme": "Dark navy with blue shield and golden outlines",
-    "composition": "Shield design centered with network overlay"
-  },
-  {
-    "post_number": 16,
-    "image_prompt_en": "Digital asset distribution visualization, flowing particles from central hub, cyan and gold gradients, dark background, modern professional, square 4K",
-    "style_keywords": ["distribution", "flow", "assets", "efficient", "connected"],
-    "color_scheme": "Dark background with cyan particles and gold accents",
-    "composition": "Radial distribution from center point"
-  },
-  {
-    "post_number": 17,
-    "image_prompt_en": "Web 4.0 revolution concept, abstract upward arrow with binary elements, electric blue highlights, dark theme, bold centered text, professional, 4K Instagram",
-    "style_keywords": ["revolution", "innovation", "future", "breakthrough", "advanced"],
-    "color_scheme": "Dark charcoal with electric blue arrow and gold accents",
-    "composition": "Arrow pointing upward from center"
-  },
-  {
-    "post_number": 18,
-    "image_prompt_en": "Smart ecosystem network, multiple interconnected icons representing services, blue-cyan gradient, dark minimalist background, professional typography, square 8K",
-    "style_keywords": ["ecosystem", "integrated", "services", "connected", "efficient"],
-    "color_scheme": "Black with cyan nodes and blue connection lines",
-    "composition": "Service icons arranged in circular network"
-  },
-  {
-    "post_number": 19,
-    "image_prompt_en": "Transparent ledger visualization, floating data blocks, cyan and blue colors, dark background, professional minimal design, text overlay possible, 4K square",
-    "style_keywords": ["transparency", "ledger", "records", "trust", "immutable"],
-    "color_scheme": "Dark navy with cyan blocks and blue accents",
-    "composition": "Floating blocks in organized formation"
-  },
-  {
-    "post_number": 20,
-    "image_prompt_en": "Future finance infrastructure, layered abstract shapes, gold gradient highlights, dark professional background, modern tech aesthetic, Instagram 4K square",
-    "style_keywords": ["infrastructure", "future", "finance", "modern", "sophisticated"],
-    "color_scheme": "Dark background with blue layers and golden highlights",
-    "composition": "Layered shapes ascending from bottom"
-  },
-  {
-    "post_number": 21,
-    "image_prompt_en": "Decentralized identity system, abstract portrait made of nodes, glowing connections, cyan and gold, dark background, professional, typography included, 8K",
-    "style_keywords": ["identity", "decentralized", "personal", "secure", "unique"],
-    "color_scheme": "Black with cyan nodes and golden connections",
-    "composition": "Stylized portrait from network nodes"
-  },
-  {
-    "post_number": 22,
-    "image_prompt_en": "Smart transaction visualization, path of movement through geometric shapes, blue and cyan gradients, dark minimal design, professional typography, square 4K",
-    "style_keywords": ["transactions", "smart", "efficient", "transparent", "fast"],
-    "color_scheme": "Dark charcoal with blue paths and cyan nodes",
-    "composition": "Path flowing through geometric elements"
-  },
-  {
-    "post_number": 23,
-    "image_prompt_en": "Digital wealth accumulation, stacked geometric shapes forming upward tower, gold gradient, blue accents, dark background, professional, Instagram 4K square",
-    "style_keywords": ["wealth", "accumulation", "growth", "stable", "secure"],
-    "color_scheme": "Dark background with golden tower and blue accents",
-    "composition": "Tower stacking upward from center base"
-  },
-  {
-    "post_number": 24,
-    "image_prompt_en": "Ecosystem integration diagram, multiple circular elements connected by blue lines, gold highlights, dark minimalist theme, professional tech aesthetic, 8K square",
-    "style_keywords": ["integration", "ecosystem", "connected", "collaborative", "seamless"],
-    "color_scheme": "Dark navy with blue connections and gold nodes",
-    "composition": "Circular elements connected in star pattern"
-  },
-  {
-    "post_number": 25,
-    "image_prompt_en": "Advanced authentication system, padlock design with digital elements, cyan glow, blue accent lines, dark professional background, square 4K",
-    "style_keywords": ["security", "authentication", "encryption", "safe", "reliable"],
-    "color_scheme": "Black with cyan glow and blue details",
-    "composition": "Padlock centered with digital elements"
-  },
-  {
-    "post_number": 26,
-    "image_prompt_en": "Reputation metric dashboard, multiple gauges and indicators, cyan and gold colors, dark background, professional finance aesthetic, typography included, Instagram 4K",
-    "style_keywords": ["metrics", "reputation", "tracking", "professional", "transparent"],
-    "color_scheme": "Dark charcoal with cyan gauges and golden text",
-    "composition": "Dashboard layout with multiple indicators"
-  },
-  {
-    "post_number": 27,
-    "image_prompt_en": "Blockchain evolution timeline, ascending nodes connected by light streams, blue and cyan gradients, dark minimalist, professional typography, square 8K",
-    "style_keywords": ["evolution", "progress", "development", "innovation", "continuous"],
-    "color_scheme": "Dark background with blue nodes and cyan streams",
-    "composition": "Ascending diagonal timeline"
-  },
-  {
-    "post_number": 28,
-    "image_prompt_en": "Digital currency exchange visualization, flowing currencies, geometric transformation, gold to blue gradient, dark professional background, 4K Instagram square",
-    "style_keywords": ["exchange", "currency", "trading", "efficient", "transparent"],
-    "color_scheme": "Dark navy with blue and gold currency symbols",
-    "composition": "Currency symbols flowing through geometric shapes"
-  },
-  {
-    "post_number": 29,
-    "image_prompt_en": "Trust network expansion, growing circular ripples from center, cyan and gold rings, dark background, professional tech design, text overlay space, 4K square",
-    "style_keywords": ["trust", "growth", "expansion", "community", "connected"],
-    "color_scheme": "Black with concentric cyan rings and gold highlights",
-    "composition": "Ripple pattern expanding from center"
-  },
-  {
-    "post_number": 30,
-    "image_prompt_en": "Intelligent asset allocation system, pie charts and distribution arrows, blue-cyan gradient, dark minimalist, professional finance aesthetic, 8K Instagram",
-    "style_keywords": ["allocation", "assets", "distribution", "intelligent", "optimized"],
-    "color_scheme": "Dark background with blue charts and cyan arrows",
-    "composition": "Multiple pie charts with distribution arrows"
-  },
-  {
-    "post_number": 31,
-    "image_prompt_en": "Web 4.0 technology stack, layered abstract blocks, electric blue highlights, dark professional background, modern minimalist, typography included, square 4K",
-    "style_keywords": ["technology", "stack", "infrastructure", "modern", "advanced"],
-    "color_scheme": "Dark charcoal with electric blue blocks and gold text",
-    "composition": "Stacked layers ascending"
-  },
-  {
-    "post_number": 32,
-    "image_prompt_en": "Digital transformation gateway, portal-like geometric design, cyan and blue light effects, dark background, futuristic aesthetic, professional, Instagram 4K square",
-    "style_keywords": ["transformation", "gateway", "future", "innovative", "breakthrough"],
-    "color_scheme": "Black with cyan portal and blue light rays",
-    "composition": "Portal design centered"
-  },
-  {
-    "post_number": 33,
-    "image_prompt_en": "Community-driven network, abstract human figures interconnected with glowing lines, cyan and gold, dark professional background, modern design, 8K square",
-    "style_keywords": ["community", "connected", "collaborative", "social", "transparent"],
-    "color_scheme": "Dark background with cyan figures and gold connections",
-    "composition": "Multiple figures connected in circular pattern"
-  },
-  {
-    "post_number": 34,
-    "image_prompt_en": "Transparent transaction ledger, floating pages with data, blue gradient, dark minimalist design, professional typography, text overlay possible, 4K Instagram",
-    "style_keywords": ["transparency", "transactions", "records", "immutable", "trustworthy"],
-    "color_scheme": "Dark navy with blue pages and cyan accents",
-    "composition": "Pages floating in organized formation"
-  },
-  {
-    "post_number": 35,
-    "image_prompt_en": "Smart economy infrastructure, interconnected systems, blue and cyan nodes, gold accents, dark background, professional tech aesthetic, typography included, 8K square",
-    "style_keywords": ["economy", "smart", "infrastructure", "efficient", "modern"],
-    "color_scheme": "Black with cyan nodes and blue connections",
-    "composition": "System nodes arranged in network pattern"
-  },
-  {
-    "post_number": 36,
-    "image_prompt_en": "Digital ownership verification, certificate design with blockchain elements, gold and cyan colors, dark professional background, modern minimalist, 4K Instagram",
-    "style_keywords": ["ownership", "verification", "certificate", "authentic", "blockchain"],
-    "color_scheme": "Dark background with gold certificate and cyan details",
-    "composition": "Certificate centered with blockchain symbols"
-  },
-  {
-    "post_number": 37,
-    "image_prompt_en": "Future of commerce visualization, shopping elements with digital overlay, blue-cyan gradient, dark background, modern professional design, square 4K",
-    "style_keywords": ["commerce", "future", "digital", "innovative", "seamless"],
-    "color_scheme": "Dark charcoal with blue commerce symbols and cyan accents",
-    "composition": "Commerce elements with digital transformation"
-  },
-  {
-    "post_number": 38,
-    "image_prompt_en": "Reputation ecosystem diagram, interconnected metrics and user icons, cyan and gold colors, dark minimalist, professional finance typography, 8K square",
-    "style_keywords": ["reputation", "ecosystem", "metrics", "transparent", "measurable"],
-    "color_scheme": "Black with cyan icons and gold metrics",
-    "composition": "Circular ecosystem with central metrics"
-  },
-  {
-    "post_number": 39,
-    "image_prompt_en": "Blockchain integrity verification, connected nodes forming checkmark, electric blue highlights, dark professional background, modern design, typography space, 4K",
-    "style_keywords": ["integrity", "verification", "secure", "trustworthy", "authenticated"],
-    "color_scheme": "Dark background with electric blue checkmark and gold accents",
-    "composition": "Checkmark formed by network nodes"
-  },
-  {
-    "post_number": 40,
-    "image_prompt_en": "Digital asset marketplace visualization, multiple floating coins and tokens, gradient blue to gold, dark background, modern professional, Instagram 8K square",
-    "style_keywords": ["marketplace", "assets", "tokens", "trading", "dynamic"],
-    "color_scheme": "Black with blue-to-gold gradient coins",
-    "composition": "Coins floating in three-dimensional space"
-  },
-  {
-    "post_number": 41,
-    "image_prompt_en": "Secure communication network, encrypted message flowing through nodes, cyan and blue colors, dark minimalist background, professional tech aesthetic, 4K square",
-    "style_keywords": ["communication", "secure", "encrypted", "private", "reliable"],
-    "color_scheme": "Dark charcoal with cyan message and blue nodes",
-    "composition": "Message path flowing through network"
-  },
-  {
-    "post_number": 42,
-    "image_prompt_en": "Value creation system, upward spiral with nodes, gold and cyan accents, dark background, professional modern design, text overlay possible, 8K Instagram",
-    "style_keywords": ["value", "creation", "growth", "sustainable", "innovative"],
-    "color_scheme": "Dark background with cyan spiral and gold highlights",
-    "composition": "Spiral ascending from lower-left to upper-right"
-  },
-  {
-    "post_number": 43,
-    "image_prompt_en": "Smart contract execution visualization, flowing steps and checkpoints, blue gradient, dark professional background, modern minimalist design, square 4K",
-    "style_keywords": ["smart contracts", "execution", "automated", "transparent", "efficient"],
-    "color_scheme": "Dark navy with blue steps and cyan highlights",
-    "composition": "Linear process flow from left to right"
-  },
-  {
-    "post_number": 44,
-    "image_prompt_en": "Decentralized finance architecture, multiple layers and components, blue-cyan gradient, gold accents, dark background, professional typography, 4K square",
-    "style_keywords": ["defi", "decentralized", "finance", "innovative", "transparent"],
-    "color_scheme": "Black with layered blue-cyan elements and gold text",
-    "composition": "Layered architecture expanding outward"
-  },
-  {
-    "post_number": 45,
-    "image_prompt_en": "Global digital economy, world map with glowing transaction points, electric blue flows, dark minimalist, professional tech aesthetic, Instagram 8K square",
-    "style_keywords": ["global", "economy", "digital", "connected", "distributed"],
-    "color_scheme": "Dark background with electric blue connections and gold highlights",
-    "composition": "World map with network overlay"
-  },
-  {
-    "post_number": 46,
-    "image_prompt_en": "Reputation growth acceleration, ascending curve with acceleration marks, gold and cyan colors, dark professional background, modern design, typography included, 4K",
-    "style_keywords": ["growth", "acceleration", "reputation", "progress", "momentum"],
-    "color_scheme": "Dark charcoal with gold curve and cyan acceleration marks",
-    "composition": "Ascending curve from left to upper-right"
-  },
-  {
-    "post_number": 47,
-    "image_prompt_en": "Advanced security protocol visualization, multiple protective layers, blue and cyan geometric patterns, dark background, professional tech design, square 8K",
-    "style_keywords": ["security", "protocol", "protection", "advanced", "reliable"],
-    "color_scheme": "Black with cyan protective layers and blue details",
-    "composition": "Concentric protective layers"
-  },
-  {
-    "post_number": 48,
-    "image_prompt_en": "Token economy visualization, multiple token types flowing, gold-blue gradient, dark minimalist, professional finance aesthetic, text space available, 4K Instagram",
-    "style_keywords": ["tokens", "economy", "digital assets", "distributed", "transparent"],
-    "color_scheme": "Dark background with gold and blue token symbols",
-    "composition": "Tokens flowing through network nodes"
-  },
-  {
-    "post_number": 49,
-    "image_prompt_en": "Intelligent routing system, data pathways with AI optimization, electric blue highlights, dark professional background, modern design, typography included, 8K square",
-    "style_keywords": ["intelligent", "routing", "optimization", "ai", "efficient"],
-    "color_scheme": "Dark charcoal with electric blue paths and gold accents",
-    "composition": "Multiple optimized pathways"
-  },
-  {
-    "post_number": 50,
-    "image_prompt_en": "Digital trust seal certification, shield with verification checkmark, cyan glow and gold accents, dark background, professional minimalist, 4K Instagram square",
-    "style_keywords": ["trust", "certification", "verified", "authentic", "professional"],
-    "color_scheme": "Black with cyan shield and gold checkmark",
-    "composition": "Shield design centered"
-  },
-  {
-    "post_number": 51,
-    "image_prompt_en": "Web 4.0 paradigm shift, abstract transformation visual, blue and cyan energy flows, gold highlights, dark background, modern typography, 8K square",
-    "style_keywords": ["paradigm", "shift", "innovation", "transformation", "future"],
-    "color_scheme": "Dark background with cyan energy and gold accents",
-    "composition": "Transformation energy from center outward"
-  },
-  {
-    "post_number": 52,
-    "image_prompt_en": "Ecosystem harmony visualization, balanced interconnected elements, cyan and blue colors, dark professional background, modern minimalist design, 4K Instagram",
-    "style_keywords": ["harmony", "ecosystem", "balanced", "interconnected", "sustainable"],
-    "color_scheme": "Dark navy with cyan elements and blue connections",
-    "composition": "Balanced elements in circular arrangement"
-  },
-  {
-    "post_number": 53,
-    "image_prompt_en": "Smart asset distribution network, equal division visualization, geometric shapes with gold gradients, dark background, professional typography, square 8K",
-    "style_keywords": ["distribution", "assets", "equal", "fair", "transparent"],
-    "color_scheme": "Black with gold geometric shapes and cyan lines",
-    "composition": "Distributed elements in symmetrical pattern"
-  },
-  {
-    "post_number": 54,
-    "image_prompt_en": "Blockchain momentum visualization, accelerating wave pattern, electric blue highlights, dark minimalist, professional tech aesthetic, text overlay space, 4K",
-    "style_keywords": ["momentum", "acceleration", "growth", "powerful", "forward"],
-    "color_scheme": "Dark charcoal with electric blue waves and gold accents",
-    "composition": "Wave pattern moving upward and rightward"
-  },
-  {
-    "post_number": 55,
-    "image_prompt_en": "Transparent governance system, decision network with stakeholders, cyan and gold nodes, dark professional background, modern design, Instagram 8K square",
-    "style_keywords": ["governance", "transparent", "stakeholders", "collaborative", "fair"],
-    "color_scheme": "Black with cyan stakeholder nodes and gold connections",
-    "composition": "Network of decision-making nodes"
-  },
-  {
-    "post_number": 56,
-    "image_prompt_en": "Digital wealth security vault, layered protection design, blue and cyan elements, dark background, professional minimalist, typography included, 4K square",
-    "style_keywords": ["security", "wealth", "protection", "vault", "secure"],
-    "color_scheme": "Dark background with blue vault and cyan security elements",
-    "composition": "Vault design with protective layers"
-  },
-  {
-    "post_number": 57,
-    "image_prompt_en": "Future financial system blueprint, architectural design with tech elements, gold and blue colors, dark professional background, modern typography, 8K Instagram",
-    "style_keywords": ["blueprint", "architecture", "financial", "future", "planned"],
-    "color_scheme": "Dark charcoal with gold blueprints and blue elements",
-    "composition": "Blueprint layout with technical elements"
-  },
-  {
-    "post_number": 58,
-    "image_prompt_en": "Smart reputation engine, computational visualization with metrics, cyan and gold, dark minimalist design, professional tech aesthetic, square 4K",
-    "style_keywords": ["engine", "reputation", "computational", "intelligent", "accurate"],
-    "color_scheme": "Black with cyan computations and gold metrics",
-    "composition": "Computational process flowing through center"
-  },
-  {
-    "post_number": 59,
-    "image_prompt_en": "Decentralized marketplace hub, multiple trading nodes, blue-cyan gradient, gold accents, dark background, professional typography, text space available, 8K",
-    "style_keywords": ["marketplace", "decentralized", "trading", "connected", "efficient"],
-    "color_scheme": "Dark navy with cyan nodes and gold highlights",
-    "composition": "Hub design with surrounding trading nodes"
-  },
-  {
-    "post_number": 60,
-    "image_prompt_en": "Continuous value acceleration, spiraling growth indicator, electric blue highlights, dark professional background, modern minimalist design, 4K Instagram square",
-    "style_keywords": ["acceleration", "value", "continuous", "growth", "momentum"],
-    "color_scheme": "Dark background with electric blue spiral and gold accents",
-    "composition": "Spiral growing larger outward"
-  },
-  {
-    "post_number": 61,
-    "image_prompt_en": "Advanced digital identity system, personal profile with blockchain backing, cyan nodes, gold verification mark, dark background, professional design, 8K square",
-    "style_keywords": ["identity", "personal", "blockchain", "verified", "unique"],
-    "color_scheme": "Black with cyan profile and gold verification",
-    "composition": "Profile centered with blockchain elements"
-  },
-  {
-    "post_number": 62,
-    "image_prompt_en": "Ecosystem growth metrics, expanding circular indicators, blue and cyan gradients, gold text, dark minimalist, professional finance aesthetic, 4K Instagram",
-    "style_keywords": ["growth", "metrics", "ecosystem", "measurable", "transparent"],
-    "color_scheme": "Dark charcoal with expanding cyan circles and gold text",
-    "composition": "Concentric growing circles"
-  },
-  {
-    "post_number": 63,
-    "image_prompt_en": "Secure token exchange interface, currency conversion visualization, blue gradients, dark professional background, modern typography, text overlay possible, 8K square",
-    "style_keywords": ["exchange", "tokens", "conversion", "secure", "efficient"],
-    "color_scheme": "Black with blue gradient currency symbols",
-    "composition": "Exchange arrows connecting different tokens"
-  },
-  {
-    "post_number": 64,
-    "image_prompt_en": "Web 4.0 connectivity web, massive interconnected network, electric blue nodes, dark background, professional tech design, typography included, 4K Instagram",
-    "style_keywords": ["connectivity", "web4", "interconnected", "global", "expansive"],
-    "color_scheme": "Dark background with electric blue nodes and gold highlights",
-    "composition": "Web pattern spreading throughout composition"
-  },
-  {
-    "post_number": 65,
-    "image_prompt_en": "Reputation milestone achievement, upward trophy or badge design, gold and cyan colors, dark minimalist, professional aesthetic, text space available, 8K square",
-    "style_keywords": ["milestone", "achievement", "reputation", "success", "recognition"],
-    "color_scheme": "Dark navy with gold trophy and cyan highlights",
-    "composition": "Trophy or badge centered with achievement indicators"
-  },
-  {
-    "post_number": 66,
-    "image_prompt_en": "Intelligent asset management AI, neural network visualization, blue and cyan lines, gold accents, dark professional background, modern design, 4K Instagram",
-    "style_keywords": ["ai", "intelligent", "management", "assets", "optimized"],
-    "color_scheme": "Black with cyan neural network and gold nodes",
-    "composition": "Neural network spreading throughout"
-  },
-  {
-    "post_number": 67,
-    "image_prompt_en": "Blockchain transparency reporting, flowing information streams, electric blue highlights, dark minimalist, professional typography, text overlay possible, 8K square",
-    "style_keywords": ["transparency", "reporting", "blockchain", "honest", "auditable"],
-    "color_scheme": "Dark charcoal with electric blue streams and gold accents",
-    "composition": "Information flowing from top to bottom"
-  },
-  {
-    "post_number": 68,
-    "image_prompt_en": "Digital economy acceleration hub, central node with radiating energy, cyan and blue colors, dark background, professional tech aesthetic, 4K Instagram",
-    "style_keywords": ["acceleration", "hub", "economy", "dynamic", "powerful"],
-    "color_scheme": "Black with cyan central node and blue radiating energy",
-    "composition": "Energy radiating from central hub outward"
-  },
-  {
-    "post_number": 69,
-    "image_prompt_en": "Smart contract certification system, seal design with blockchain elements, gold and cyan, dark professional background, modern minimalist design, 8K square",
-    "style_keywords": ["certification", "contracts", "verified", "authentic", "sealed"],
-    "color_scheme": "Dark background with gold seal and cyan blockchain details",
-    "composition": "Seal centered with technical elements"
-  },
-  {
-    "post_number": 70,
-    "image_prompt_en": "Future-ready financial infrastructure, layered tech elements, blue-cyan gradient, gold highlights, dark background, typography included, professional design, 4K",
-    "style_keywords": ["infrastructure", "future", "financial", "ready", "modern"],
-    "color_scheme": "Dark navy with blue-cyan layers and gold text",
-    "composition": "Layered infrastructure expanding"
-  },
-  {
-    "post_number": 71,
-    "image_prompt_en": "Reputation score dashboard, circular gauge with metrics, cyan needle and gold scale, dark minimalist, professional finance aesthetic, text space, 8K Instagram",
-    "style_keywords": ["dashboard", "reputation", "score", "measured", "transparent"],
-    "color_scheme": "Black with cyan gauge and gold scale",
-    "composition": "Circular gauge centered with surrounding metrics"
-  },
-  {
-    "post_number": 72,
-    "image_prompt_en": "Decentralized consensus mechanism, nodes voting in circle, blue and cyan voting symbols, gold highlights, dark professional background, 4K square",
-    "style_keywords": ["consensus", "voting", "decentralized", "democratic", "transparent"],
-    "color_scheme": "Dark charcoal with cyan voting nodes and gold highlights",
-    "composition": "Circular voting arrangement around central decision"
-  },
-  {
-    "post_number": 73,
-    "image_prompt_en": "Token utility showcase, multiple use cases flowing from token, electric blue highlights, dark background, modern typography, text overlay possible, 8K square",
-    "style_keywords": ["utility", "tokens", "use cases", "valuable", "multifaceted"],
-    "color_scheme": "Black with electric blue flows and gold token center",
-    "composition": "Token with usage branches extending outward"
-  },
-  {
-    "post_number": 74,
-    "image_prompt_en": "Advanced security infrastructure, protective mesh design, cyan and blue colors, dark minimalist, professional tech aesthetic, typography included, 4K Instagram",
-    "style_keywords": ["security", "protection", "infrastructure", "advanced", "impenetrable"],
-    "color_scheme": "Dark background with cyan mesh and blue nodes",
-    "composition": "Protective mesh covering composition"
-  },
-  {
-    "post_number": 75,
-    "image_prompt_en": "Digital wealth accumulation visualization, stacked value units, gold gradient, blue accents, dark professional background, modern design, 8K square",
-    "style_keywords": ["wealth", "accumulation", "value", "stable", "growing"],
-    "color_scheme": "Black with gold stacked units and blue highlights",
-    "composition": "Tower of value stacking from bottom"
-  },
-  {
-    "post_number": 76,
-    "image_prompt_en": "Web 4.0 transformation journey, path leading to future, electric blue highlights, dark background, professional typography, text space available, 4K Instagram",
-    "style_keywords": ["transformation", "journey", "future", "progressive", "forward"],
-    "color_scheme": "Dark charcoal with electric blue path and gold accents",
-    "composition": "Path ascending toward upper-right"
-  },
-  {
-    "post_number": 77,
-    "image_prompt_en": "Intelligent trading system visualization, market data flow, blue and cyan gradients, gold accents, dark minimalist, professional finance aesthetic, 8K square",
-    "style_keywords": ["trading", "intelligent", "market", "data-driven", "responsive"],
-    "color_scheme": "Black with cyan market data and blue analysis",
-    "composition": "Data flowing through trading algorithm"
-  },
-  {
-    "post_number": 78,
-    "image_prompt_en": "Reputation-backed financing system, trust bridge connecting borrower and lender, cyan connections, gold highlights, dark professional background, 4K Instagram",
-    "style_keywords": ["financing", "trust", "reputation", "secured", "innovative"],
-    "color_scheme": "Dark navy with cyan bridge and gold trust markers",
-    "composition": "Bridge design connecting two parties"
-  },
-  {
-    "post_number": 79,
-    "image_prompt_en": "Ecosystem sustainability model, circular flow diagram, blue and cyan colors, gold accents, dark background, professional typography, text overlay space, 8K square",
-    "style_keywords": ["sustainability", "circular", "ecosystem", "balanced", "continuous"],
-    "color_scheme": "Black with cyan circular flow and gold highlights",
-    "composition": "Circular flow pattern"
-  },
-  {
-    "post_number": 80,
-    "image_prompt_en": "Smart reward system, gamification elements with blockchain, electric blue highlights, dark minimalist, professional design, typography included, 4K Instagram",
-    "style_keywords": ["rewards", "smart", "gamification", "engaging", "fair"],
-    "color_scheme": "Dark background with electric blue reward elements and gold accents",
-    "composition": "Reward progression from left to right"
-  },
-  {
-    "post_number": 81,
-    "image_prompt_en": "Global trust network expansion, connecting continents with nodes, cyan connections, gold highlights, dark professional background, modern design, 8K square",
-    "style_keywords": ["global", "trust", "network", "expansion", "international"],
-    "color_scheme": "Black with cyan international connections and gold nodes",
-    "composition": "World with network overlay"
-  },
-  {
-    "post_number": 82,
-    "image_prompt_en": "Digital asset custody solution, secure storage visualization, blue vault design, cyan locks, gold accents, dark background, professional typography, 4K Instagram",
-    "style_keywords": ["custody", "storage", "secure", "reliable", "professional"],
-    "color_scheme": "Dark charcoal with blue vault and cyan security elements",
-    "composition": "Vault design with security layers"
-  },
-  {
-    "post_number": 83,
-    "image_prompt_en": "Reputation-based credit system, credit score visualization, ascending bar chart, gold and cyan, dark minimalist, professional finance aesthetic, text space, 8K square",
-    "style_keywords": ["credit", "reputation", "score", "measured", "fair"],
-    "color_scheme": "Black with gold bars and cyan score indicator",
-    "composition": "Ascending bar chart from left to right"
-  },
-  {
-    "post_number": 84,
-    "image_prompt_en": "Advanced blockchain interoperability, bridges connecting networks, electric blue connections, dark background, modern professional design, typography included, 4K Instagram",
-    "style_keywords": ["interoperability", "bridges", "connected", "seamless", "inclusive"],
-    "color_scheme": "Dark background with electric blue bridges and gold highlights",
-    "composition": "Multiple networks connected by bridges"
-  },
-  {
-    "post_number": 85,
-    "image_prompt_en": "Digital opportunity marketplace, multiple opportunities visualized, blue and cyan opportunities, gold accents, dark minimalist, professional design, 8K square",
-    "style_keywords": ["opportunities", "marketplace", "diverse", "accessible", "growing"],
-    "color_scheme": "Black with cyan opportunities and blue connections",
-    "composition": "Multiple opportunities in organized layout"
-  },
-  {
-    "post_number": 86,
-    "image_prompt_en": "Transparent audit trail visualization, sequential blocks of data, blue gradient, dark professional background, modern typography, text overlay possible, 4K Instagram",
-    "style_keywords": ["audit", "transparency", "immutable", "trustworthy", "documented"],
-    "color_scheme": "Dark navy with blue sequential blocks and gold text",
-    "composition": "Timeline of audit blocks progressing rightward"
-  },
-  {
-    "post_number": 87,
-    "image_prompt_en": "Web 4.0 community collaboration hub, multiple user nodes contributing, cyan colors, gold highlights, dark background, professional tech aesthetic, 8K square",
-    "style_keywords": ["community", "collaboration", "participation", "inclusive", "transparent"],
-    "color_scheme": "Black with cyan user nodes and gold contribution markers",
-    "composition": "Hub with surrounding contributing nodes"
-  },
-  {
-    "post_number": 88,
-    "image_prompt_en": "Intelligent portfolio optimization, asset allocation visualization, gold and cyan gradients, blue accents, dark minimalist, professional finance aesthetic, 4K Instagram",
-    "style_keywords": ["portfolio", "optimization", "intelligent", "balanced", "efficient"],
-    "color_scheme": "Dark charcoal with gold assets and cyan optimization flows",
-    "composition": "Portfolio allocation in balanced arrangement"
-  },
-  {
-    "post_number": 89,
-    "image_prompt_en": "Reputation-driven economy model, circular value exchange, cyan flows and gold nodes, dark professional background, modern design, typography included, 8K square",
-    "style_keywords": ["economy", "reputation", "value", "circular", "sustainable"],
-    "color_scheme": "Black with cyan exchange flows and gold value nodes",
-    "composition": "Circular economy model"
-  },
-  {
-    "post_number": 90,
-    "image_prompt_en": "Future financial freedom vision, ascending path to achievement, electric blue highlights, dark background, professional typography, text overlay space, 4K Instagram",
-    "style_keywords": ["freedom", "financial", "achievement", "future", "aspirational"],
-    "color_scheme": "Dark background with electric blue path and gold destination",
-    "composition": "Ascending path from lower-left to upper-right"
-  },
-  {
-    "post_number": 91,
-    "image_prompt_en": "Blockchain security audit certification, checkmark design with seal elements, cyan and gold colors, dark minimalist, professional tech aesthetic, 8K square",
-    "style_keywords": ["audit", "certification", "security", "verified", "professional"],
-    "color_scheme": "Black with cyan checkmark and gold seal elements",
-    "composition": "Certification seal centered"
-  },
-  {
-    "post_number": 92,
-    "image_prompt_en": "Smart ecosystem services dashboard, multiple service icons with metrics, blue-cyan gradient, gold accents, dark professional background, typography included, 4K Instagram",
-    "style_keywords": ["services", "dashboard", "ecosystem", "integrated", "comprehensive"],
-    "color_scheme": "Dark navy with cyan service icons and gold metrics",
-    "composition": "Dashboard layout with service widgets"
-  },
-  {
-    "post_number": 93,
-    "image_prompt_en": "Digital value creation pipeline, process flow with value multiplication, gold gradient, blue nodes, dark background, modern professional design, 8K square",
-    "style_keywords": ["value", "creation", "pipeline", "efficient", "productive"],
-    "color_scheme": "Black with gold gradient and blue process nodes",
-    "composition": "Pipeline flowing from left to right with value growth"
-  },
-  {
-    "post_number": 94,
-    "image_prompt_en": "Trusted ecosystem foundation, structural base design, cyan and blue elements, gold highlights, dark minimalist, professional aesthetic, text overlay possible, 4K Instagram",
-    "style_keywords": ["foundation", "trust", "stability", "reliable", "solid"],
-    "color_scheme": "Dark charcoal with blue foundation and cyan highlights",
-    "composition": "Strong foundation base with structural elements"
-  },
-  {
-    "post_number": 95,
-    "image_prompt_en": "Web 4.0 innovation catalyst, central spark generating ideas, electric blue radiations, dark professional background, modern typography, text space available, 8K square",
-    "style_keywords": ["innovation", "catalyst", "ideas", "creative", "transformative"],
-    "color_scheme": "Black with electric blue radiations and gold spark",
-    "composition": "Central spark with radiating innovation"
-  },
-  {
-    "post_number": 96,
-    "image_prompt_en": "Advanced token economy mechanics, token flow visualization with game theory elements, blue and cyan flows, gold accents, dark minimalist, professional design, 4K Instagram",
-    "style_keywords": ["tokens", "economy", "mechanics", "game theory", "balanced"],
-    "color_scheme": "Dark background with cyan token flows and gold theory nodes",
-    "composition": "Token circulation system with mechanics"
-  },
-  {
-    "post_number": 97,
-    "image_prompt_en": "Reputation-backed sustainability commitment, sustainable growth visualization, green-gold gradient with cyan accents, dark professional background, 8K square",
-    "style_keywords": ["sustainability", "commitment", "reputation", "responsible", "long-term"],
-    "color_scheme": "Dark navy with green-gold growth and cyan accents",
-    "composition": "Sustainable growth curve ascending"
-  },
-  {
-    "post_number": 98,
-    "image_prompt_en": "Digital transformation acceleration center, hub radiating progress, electric blue rays, dark background, modern professional typography, text overlay space, 4K Instagram",
-    "style_keywords": ["acceleration", "transformation", "center", "progress", "momentum"],
-    "color_scheme": "Dark charcoal with electric blue acceleration rays and gold center",
-    "composition": "Central hub with radiating acceleration"
-  },
-  {
-    "post_number": 99,
-    "image_prompt_en": "Comprehensive blockchain solution ecosystem, interconnected solutions, blue-cyan network, gold highlights, dark minimalist, professional tech aesthetic, 8K square",
-    "style_keywords": ["ecosystem", "solutions", "comprehensive", "integrated", "complete"],
-    "color_scheme": "Black with cyan solution nodes and blue connection network",
-    "composition": "Ecosystem of solutions in interconnected arrangement"
-  },
-  {
-    "post_number": 100,
-    "image_prompt_en": "Bitbon future vision statement, bold typography with visionary imagery, electric blue highlights and gold accents, dark professional background, aspirational design, 4K Instagram square",
-    "style_keywords": ["vision", "future", "bold", "aspirational", "powerful"],
-    "color_scheme": "Dark background with electric blue vision elements and gold text",
-    "composition": "Bold centered typography with supportive imagery"
+{
+  "version": "2.0",
+  "total_prompts": 100,
+  "prompts": [
+    {
+      "post_number": 1,
+      "title": "Что такое Bitbon простыми словами",
+      "rubric": "A",
+      "format": "Разбор",
+      "image_prompt_en": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.\n\nПост: \"Что такое Bitbon простыми словами\"\nФормат: Разбор\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 2,
+      "title": "Почему традиционные финансы не масштабируются",
+      "rubric": "A",
+      "format": "Аналогия",
+      "image_prompt_en": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.",
+      "image_prompt_ru": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.\n\nПост: \"Почему традиционные финансы не масштабируются\"\nФормат: Аналогия\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 3,
+      "title": "Три слоя Bitbon, которые нужно понимать",
+      "rubric": "A",
+      "format": "Структура",
+      "image_prompt_en": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.",
+      "image_prompt_ru": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.\n\nПост: \"Три слоя Bitbon, которые нужно понимать\"\nФормат: Структура\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 4,
+      "title": "История создания Bitbon: откуда взялась идея",
+      "rubric": "A",
+      "format": "Сторителлинг",
+      "image_prompt_en": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.\n\nПост: \"История создания Bitbon: откуда взялась идея\"\nФормат: Сторителлинг\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 5,
+      "title": "Битбон vs. Bitcoin vs. Ethereum: в чём разница",
+      "rubric": "A",
+      "format": "Сравнение",
+      "image_prompt_en": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.",
+      "image_prompt_ru": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.\n\nПост: \"Битбон vs. Bitcoin vs. Ethereum: в чём разница\"\nФормат: Сравнение\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 6,
+      "title": "Почему Bitbon привязан к фиату, а не волатилен",
+      "rubric": "A",
+      "format": "Разбор",
+      "image_prompt_en": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.\n\nПост: \"Почему Bitbon привязан к фиату, а не волатилен\"\nФормат: Разбор\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 7,
+      "title": "Как работает механизм обратного выкупа в Bitbon",
+      "rubric": "A",
+      "format": "Объяснение",
+      "image_prompt_en": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.",
+      "image_prompt_ru": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.\n\nПост: \"Как работает механизм обратного выкупа в Bitbon\"\nФормат: Объяснение\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 8,
+      "title": "Bitbon vs. традиционные ценные бумаги",
+      "rubric": "A",
+      "format": "Сравнение",
+      "image_prompt_en": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.",
+      "image_prompt_ru": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.\n\nПост: \"Bitbon vs. традиционные ценные бумаги\"\nФормат: Сравнение\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 9,
+      "title": "Почему Bitbon нужен каждому предпринимателю",
+      "rubric": "A",
+      "format": "Аргумент",
+      "image_prompt_en": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.\n\nПост: \"Почему Bitbon нужен каждому предпринимателю\"\nФормат: Аргумент\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 10,
+      "title": "Три самых частых мифа о Bitbon",
+      "rubric": "A",
+      "format": "Развенчание",
+      "image_prompt_en": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.",
+      "image_prompt_ru": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.\n\nПост: \"Три самых частых мифа о Bitbon\"\nФормат: Развенчание\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 11,
+      "title": "Как начать работать с Bitbon прямо сейчас",
+      "rubric": "A",
+      "format": "Инструкция",
+      "image_prompt_en": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Минималистичный тёмный фон с голубыми неоновыми элементами блокчейна. Центральное изображение цепочки блоков, соединённых светящимися линиями. Электрический синий, кибан, киберпанк стиль. Частицы света, свечение, профессиональный. 1024x1024.\n\nПост: \"Как начать работать с Bitbon прямо сейчас\"\nФормат: Инструкция\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 12,
+      "title": "Репутация в Bitbon: АУРА — это не просто оценка",
+      "rubric": "A",
+      "format": "Концепция",
+      "image_prompt_en": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.",
+      "image_prompt_ru": "Современная иллюстрация системы Bitbon как сетевой топологии. Тёмный фон с яркими неоновыми узлами (синий, фиолетовый, зелёный). Каждый узел соединён светящимися линиями. Стиль: минималист, техно, будущее. Разрешение: 1024x1024.\n\nПост: \"Репутация в Bitbon: АУРА — это не просто оценка\"\nФормат: Концепция\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 13,
+      "title": "Почему блокчейн лучше, чем просто база данных",
+      "rubric": "A",
+      "format": "Разбор",
+      "image_prompt_en": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.",
+      "image_prompt_ru": "Сравнение традиционной системы с Bitbon через визуальную метафору. Слева - старая система (серая, скучная), справа - Bitbon (ярко, неоны, блокчейн элементы). Контрастные цвета. Профессиональный стиль. 1024x1024.\n\nПост: \"Почему блокчейн лучше, чем просто база данных\"\nФормат: Разбор\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 14,
+      "title": "Bitbon и налоги: что нужно знать",
+      "rubric": "A",
+      "format": "Справка",
+      "image_prompt_en": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Абстрактное изображение трёх слоёв Bitbon как концентрических сфер. Каждый слой светится разным цветом (синий, фиолетовый, зелёный). Тёмный фон, частицы, киберпанк эстетика. 1024x1024.\n\nПост: \"Bitbon и налоги: что нужно знать\"\nФормат: Справка\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 15,
+      "title": "Что ждёт Bitbon в следующие 5 лет",
+      "rubric": "A",
+      "format": "Прогноз",
+      "image_prompt_en": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.",
+      "image_prompt_ru": "Визуализация экосистемы Bitbon с центральным узлом (Bitbon) и радиально расходящимися ветвями (приложения, партнёры, пользователи). Неоновое свечение, современный дизайн. 1024x1024.\n\nПост: \"Что ждёт Bitbon в следующие 5 лет\"\nФормат: Прогноз\nСтиль: Минималист, техно, киберпанк, неоны (электрический синий, фиолетовый, зелёный)",
+      "style_keywords": [
+        "Минималист",
+        "техно",
+        "киберпанк",
+        "неоны (электрический синий",
+        "фиолетовый",
+        "зелёный)"
+      ],
+      "color_scheme": "Dark background with neon blue, purple, cyan accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_A",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 16,
+      "title": "Web 4.0: что это вообще такое",
+      "rubric": "B",
+      "format": "Объяснение",
+      "image_prompt_en": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.",
+      "image_prompt_ru": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.\n\nПост: \"Web 4.0: что это вообще такое\"\nФормат: Объяснение\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 17,
+      "title": "Web 4.0: вот почему Facebook и Google боятся этого",
+      "rubric": "B",
+      "format": "Анализ",
+      "image_prompt_en": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.\n\nПост: \"Web 4.0: вот почему Facebook и Google боятся этого\"\nФормат: Анализ\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 18,
+      "title": "ИИ в Web 4.0: помощник или хозяин?",
+      "rubric": "B",
+      "format": "Размышление",
+      "image_prompt_en": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.\n\nПост: \"ИИ в Web 4.0: помощник или хозяин?\"\nФормат: Размышление\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 19,
+      "title": "Как Web 4.0 изменит труд",
+      "rubric": "B",
+      "format": "Видение",
+      "image_prompt_en": "Цифровой город Web4 будущего. Высокие здания из кода, летящие дроны, хологафические интерфейсы. Неоновое свечение, ночная атмосфера, киберпанк. 1024x1024.",
+      "image_prompt_ru": "Цифровой город Web4 будущего. Высокие здания из кода, летящие дроны, хологафические интерфейсы. Неоновое свечение, ночная атмосфера, киберпанк. 1024x1024.\n\nПост: \"Как Web 4.0 изменит труд\"\nФормат: Видение\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 20,
+      "title": "Web 4.0 и личные данные: полный контроль",
+      "rubric": "B",
+      "format": "Обещание",
+      "image_prompt_en": "Квантовый компьютер и нейросети в единой системе. Светящиеся кубиты, синапсы, потоки данных. Цвета: синий, пурпур, зелёный. Сложный, профессиональный дизайн. 1024x1024.",
+      "image_prompt_ru": "Квантовый компьютер и нейросети в единой системе. Светящиеся кубиты, синапсы, потоки данных. Цвета: синий, пурпур, зелёный. Сложный, профессиональный дизайн. 1024x1024.\n\nПост: \"Web 4.0 и личные данные: полный контроль\"\nФормат: Обещание\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 21,
+      "title": "Web 4.0: экосистема vs. платформы",
+      "rubric": "B",
+      "format": "Сравнение",
+      "image_prompt_en": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.",
+      "image_prompt_ru": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.\n\nПост: \"Web 4.0: экосистема vs. платформы\"\nФормат: Сравнение\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 22,
+      "title": "Web 4.0 и образование: конец монополии учреждений",
+      "rubric": "B",
+      "format": "Прогноз",
+      "image_prompt_en": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.\n\nПост: \"Web 4.0 и образование: конец монополии учреждений\"\nФормат: Прогноз\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 23,
+      "title": "Web 4.0 в бизнесе: финансирование без инвесторов",
+      "rubric": "B",
+      "format": "Сценарий",
+      "image_prompt_en": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.\n\nПост: \"Web 4.0 в бизнесе: финансирование без инвесторов\"\nФормат: Сценарий\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 24,
+      "title": "Web 4.0: почему это не утопия, а неизбежность",
+      "rubric": "B",
+      "format": "Аргумент",
+      "image_prompt_en": "Цифровой город Web4 будущего. Высокие здания из кода, летящие дроны, хологафические интерфейсы. Неоновое свечение, ночная атмосфера, киберпанк. 1024x1024.",
+      "image_prompt_ru": "Цифровой город Web4 будущего. Высокие здания из кода, летящие дроны, хологафические интерфейсы. Неоновое свечение, ночная атмосфера, киберпанк. 1024x1024.\n\nПост: \"Web 4.0: почему это не утопия, а неизбежность\"\nФормат: Аргумент\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 25,
+      "title": "Три типа людей в Web 4.0",
+      "rubric": "B",
+      "format": "Классификация",
+      "image_prompt_en": "Квантовый компьютер и нейросети в единой системе. Светящиеся кубиты, синапсы, потоки данных. Цвета: синий, пурпур, зелёный. Сложный, профессиональный дизайн. 1024x1024.",
+      "image_prompt_ru": "Квантовый компьютер и нейросети в единой системе. Светящиеся кубиты, синапсы, потоки данных. Цвета: синий, пурпур, зелёный. Сложный, профессиональный дизайн. 1024x1024.\n\nПост: \"Три типа людей в Web 4.0\"\nФормат: Классификация\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 26,
+      "title": "Web 4.0 и окружающая среда: устойчивая экономика",
+      "rubric": "B",
+      "format": "Размышление",
+      "image_prompt_en": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.",
+      "image_prompt_ru": "Фуturistic глобус, собранный из светящихся узлов и сетей. Вокруг него AI символы, квантовые паттерны, символы блокчейна. Цвета: электрический синий, неоновый зелёный, пурпур. Киберпанк стиль. 1024x1024.\n\nПост: \"Web 4.0 и окружающая среда: устойчивая экономика\"\nФормат: Размышление\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 27,
+      "title": "Web 4.0 vs. Социализм vs. Капитализм: в чём разница",
+      "rubric": "B",
+      "format": "Философия",
+      "image_prompt_en": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.",
+      "image_prompt_ru": "Слои интернета: Web1, Web2, Web3, Web4 в виде расходящихся волн энергии. Каждый слой имеет свой цвет. Web4 - самый яркий и сложный. Киберпанк эстетика. 1024x1024.\n\nПост: \"Web 4.0 vs. Социализм vs. Капитализм: в чём разница\"\nФормат: Философия\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 28,
+      "title": "Web 4.0: переходный период. Как выжить и процветать",
+      "rubric": "B",
+      "format": "Практический совет",
+      "image_prompt_en": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.",
+      "image_prompt_ru": "Визуализация AI + Blockchain = Web4. Две потока энергии (синий для AI, зелёный для blockchain) сливаются в единую систему. Частицы, свечение, профессиональный. 1024x1024.\n\nПост: \"Web 4.0: переходный период. Как выжить и процветать\"\nФормат: Практический совет\nСтиль: Киберпанк, футуристический, инновационный, сложный",
+      "style_keywords": [
+        "Киберпанк",
+        "футуристический",
+        "инновационный",
+        "сложный"
+      ],
+      "color_scheme": "Electric blue, neon green, purple, cyan",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_B",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 29,
+      "title": "Криптография: почему она неломаема",
+      "rubric": "C",
+      "format": "Наука",
+      "image_prompt_en": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.",
+      "image_prompt_ru": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.\n\nПост: \"Криптография: почему она неломаема\"\nФормат: Наука\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 30,
+      "title": "Как блокчейн хранит данные: структура и логика",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.",
+      "image_prompt_ru": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.\n\nПост: \"Как блокчейн хранит данные: структура и логика\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 31,
+      "title": "Распределённость vs. Централизация: за и против",
+      "rubric": "C",
+      "format": "Анализ",
+      "image_prompt_en": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.",
+      "image_prompt_ru": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.\n\nПост: \"Распределённость vs. Централизация: за и против\"\nФормат: Анализ\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 32,
+      "title": "Смарт-контракты: программы, которые выполняют обещания",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.",
+      "image_prompt_ru": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.\n\nПост: \"Смарт-контракты: программы, которые выполняют обещания\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 33,
+      "title": "Газ, транзакции и комиссии: как считается стоимость",
+      "rubric": "C",
+      "format": "Справка",
+      "image_prompt_en": "AURA система как светящаяся репутационная сетка вокруг центрального узла. Разные уровни свечения обозначают разные уровни репутации. 1024x1024.",
+      "image_prompt_ru": "AURA система как светящаяся репутационная сетка вокруг центрального узла. Разные уровни свечения обозначают разные уровни репутации. 1024x1024.\n\nПост: \"Газ, транзакции и комиссии: как считается стоимость\"\nФормат: Справка\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 34,
+      "title": "Вилки и обновления: как блокчейн эволюционирует",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.",
+      "image_prompt_ru": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.\n\nПост: \"Вилки и обновления: как блокчейн эволюционирует\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 35,
+      "title": "Энергопотребление блокчейна: правда и мифы",
+      "rubric": "C",
+      "format": "Разбор",
+      "image_prompt_en": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.",
+      "image_prompt_ru": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.\n\nПост: \"Энергопотребление блокчейна: правда и мифы\"\nФормат: Разбор\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 36,
+      "title": "Скорость транзакций: почему блокчейн медленнее, чем базы данных",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.",
+      "image_prompt_ru": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.\n\nПост: \"Скорость транзакций: почему блокчейн медленнее, чем базы данных\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 37,
+      "title": "Кошельки и ключи: как сохранить свои активы",
+      "rubric": "C",
+      "format": "Инструкция",
+      "image_prompt_en": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.",
+      "image_prompt_ru": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.\n\nПост: \"Кошельки и ключи: как сохранить свои активы\"\nФормат: Инструкция\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 38,
+      "title": "Майнинг и валидация: кто проверяет блокчейн",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "AURA система как светящаяся репутационная сетка вокруг центрального узла. Разные уровни свечения обозначают разные уровни репутации. 1024x1024.",
+      "image_prompt_ru": "AURA система как светящаяся репутационная сетка вокруг центрального узла. Разные уровни свечения обозначают разные уровни репутации. 1024x1024.\n\nПост: \"Майнинг и валидация: кто проверяет блокчейн\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 39,
+      "title": "Токены vs. Монеты: в чём разница",
+      "rubric": "C",
+      "format": "Различие",
+      "image_prompt_en": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.",
+      "image_prompt_ru": "Криптография и шифрование визуализированы как протекающие потоки кода через защитный щит. Золотые и синие неоны. 1024x1024.\n\nПост: \"Токены vs. Монеты: в чём разница\"\nФормат: Различие\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 40,
+      "title": "Реквизиция и кошельки: кто видит ваши деньги",
+      "rubric": "C",
+      "format": "Философия",
+      "image_prompt_en": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.",
+      "image_prompt_ru": "Квантовая безопасность - атомы/кубиты, соединённые в квантовую сеть. Каждый элемент светится и вибрирует. Пурпур, синий, зелёный. 1024x1024.\n\nПост: \"Реквизиция и кошельки: кто видит ваши деньги\"\nФормат: Философия\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 41,
+      "title": "Фиат-рампы: как вывести деньги из блокчейна в реальность",
+      "rubric": "C",
+      "format": "Инструкция",
+      "image_prompt_en": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.",
+      "image_prompt_ru": "Блокчейн технология как сеть светящихся блоков с криптографическими символами. Тёмный фон, неоновые цвета. Показать безопасность и надёжность. 1024x1024.\n\nПост: \"Фиат-рампы: как вывести деньги из блокчейна в реальность\"\nФормат: Инструкция\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 42,
+      "title": "Оракулы: как блокчейн получает информацию из реального мира",
+      "rubric": "C",
+      "format": "Объяснение",
+      "image_prompt_en": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.",
+      "image_prompt_ru": "Смарт-контракты визуализированы как светящиеся коды, соединённые в сеть доверия. Замки, проверки, цепи. Неоны, киберпанк. 1024x1024.\n\nПост: \"Оракулы: как блокчейн получает информацию из реального мира\"\nФормат: Объяснение\nСтиль: Технический, профессиональный, научный, киберпанк",
+      "style_keywords": [
+        "Технический",
+        "профессиональный",
+        "научный",
+        "киберпанк"
+      ],
+      "color_scheme": "Blue, purple, green, gold accents",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_C",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 43,
+      "title": "АУРА как валюта доверия",
+      "rubric": "D",
+      "format": "Концепция",
+      "image_prompt_en": "Сеть доверия между пользователями визуализирована как светящиеся мосты между узлами. Каждый мост имеет разную прочность (толщину/яркость). 1024x1024.",
+      "image_prompt_ru": "Сеть доверия между пользователями визуализирована как светящиеся мосты между узлами. Каждый мост имеет разную прочность (толщину/яркость). 1024x1024.\n\nПост: \"АУРА как валюта доверия\"\nФормат: Концепция\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 44,
+      "title": "Как потерять АУРУ и как её восстановить",
+      "rubric": "D",
+      "format": "Руководство",
+      "image_prompt_en": "Идентичность Web4 как цифровой паспорт с голограммой. Защита данных, безопасность, уникальность отображены визуально. 1024x1024.",
+      "image_prompt_ru": "Идентичность Web4 как цифровой паспорт с голограммой. Защита данных, безопасность, уникальность отображены визуально. 1024x1024.\n\nПост: \"Как потерять АУРУ и как её восстановить\"\nФормат: Руководство\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 45,
+      "title": "АУРА для компаний: корпоративная репутация",
+      "rubric": "D",
+      "format": "Применение",
+      "image_prompt_en": "Поток репутации между пользователями как светящиеся частицы, переливающиеся по сети. Позитивная энергия, синие и золотые цвета. 1024x1024.",
+      "image_prompt_ru": "Поток репутации между пользователями как светящиеся частицы, переливающиеся по сети. Позитивная энергия, синие и золотые цвета. 1024x1024.\n\nПост: \"АУРА для компаний: корпоративная репутация\"\nФормат: Применение\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 46,
+      "title": "АУРА и преступления: неподкупная справедливость",
+      "rubric": "D",
+      "format": "Приложение",
+      "image_prompt_en": "AURA система как звездное небо, где звёзды - это пользователи, а свечение обозначает репутацию. Космос, молочный путь, репутационные связи. 1024x1024.",
+      "image_prompt_ru": "AURA система как звездное небо, где звёзды - это пользователи, а свечение обозначает репутацию. Космос, молочный путь, репутационные связи. 1024x1024.\n\nПост: \"АУРА и преступления: неподкупная справедливость\"\nФормат: Приложение\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 47,
+      "title": "Социальный кредит vs. АУРА: в чём разница",
+      "rubric": "D",
+      "format": "Сравнение",
+      "image_prompt_en": "Репутационный портрет как светящаяся маска или аватар, окружённая символами достижений. Золотые и синие неоны. 1024x1024.",
+      "image_prompt_ru": "Репутационный портрет как светящаяся маска или аватар, окружённая символами достижений. Золотые и синие неоны. 1024x1024.\n\nПост: \"Социальный кредит vs. АУРА: в чём разница\"\nФормат: Сравнение\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 48,
+      "title": "АУРА для государства: рейтинг страны в блокчейне",
+      "rubric": "D",
+      "format": "Видение",
+      "image_prompt_en": "Сеть доверия между пользователями визуализирована как светящиеся мосты между узлами. Каждый мост имеет разную прочность (толщину/яркость). 1024x1024.",
+      "image_prompt_ru": "Сеть доверия между пользователями визуализирована как светящиеся мосты между узлами. Каждый мост имеет разную прочность (толщину/яркость). 1024x1024.\n\nПост: \"АУРА для государства: рейтинг страны в блокчейне\"\nФормат: Видение\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 49,
+      "title": "АУРА молодых: как школьники строят репутацию",
+      "rubric": "D",
+      "format": "Сценарий",
+      "image_prompt_en": "Идентичность Web4 как цифровой паспорт с голограммой. Защита данных, безопасность, уникальность отображены визуально. 1024x1024.",
+      "image_prompt_ru": "Идентичность Web4 как цифровой паспорт с голограммой. Защита данных, безопасность, уникальность отображены визуально. 1024x1024.\n\nПост: \"АУРА молодых: как школьники строят репутацию\"\nФормат: Сценарий\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 50,
+      "title": "АУРА и любовь: можно ли купить доверие",
+      "rubric": "D",
+      "format": "Философия",
+      "image_prompt_en": "Поток репутации между пользователями как светящиеся частицы, переливающиеся по сети. Позитивная энергия, синие и золотые цвета. 1024x1024.",
+      "image_prompt_ru": "Поток репутации между пользователями как светящиеся частицы, переливающиеся по сети. Позитивная энергия, синие и золотые цвета. 1024x1024.\n\nПост: \"АУРА и любовь: можно ли купить доверие\"\nФормат: Философия\nСтиль: Уникальный, личный, доверие, безопасность",
+      "style_keywords": [
+        "Уникальный",
+        "личный",
+        "доверие",
+        "безопасность"
+      ],
+      "color_scheme": "Gold, electric blue, purple with mystical elements",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_D",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 51,
+      "title": "Бизнес-модель Bitbon: как зарабатывают экосистемы",
+      "rubric": "E",
+      "format": "Экономика",
+      "image_prompt_en": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.",
+      "image_prompt_ru": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.\n\nПост: \"Бизнес-модель Bitbon: как зарабатывают экосистемы\"\nФормат: Экономика\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 52,
+      "title": "Как компании зарабатывают в Web 4.0",
+      "rubric": "E",
+      "format": "Сценарий",
+      "image_prompt_en": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.",
+      "image_prompt_ru": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.\n\nПост: \"Как компании зарабатывают в Web 4.0\"\nФормат: Сценарий\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 53,
+      "title": "Микроэкономика Bitbon: как тысячи мелких транзакций создают богатство",
+      "rubric": "E",
+      "format": "Анализ",
+      "image_prompt_en": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.",
+      "image_prompt_ru": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.\n\nПост: \"Микроэкономика Bitbon: как тысячи мелких транзакций создают богатство\"\nФормат: Анализ\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 54,
+      "title": "Работа в Web 4.0: от сотрудника к предпринимателю",
+      "rubric": "E",
+      "format": "Трансформация",
+      "image_prompt_en": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.",
+      "image_prompt_ru": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.\n\nПост: \"Работа в Web 4.0: от сотрудника к предпринимателю\"\nФормат: Трансформация\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 55,
+      "title": "Инвестирование в Web 4.0: как получить доход от Bitbon",
+      "rubric": "E",
+      "format": "Инструкция",
+      "image_prompt_en": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.",
+      "image_prompt_ru": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.\n\nПост: \"Инвестирование в Web 4.0: как получить доход от Bitbon\"\nФормат: Инструкция\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 56,
+      "title": "Как компании используют Bitbon для расширения капитала",
+      "rubric": "E",
+      "format": "Разбор",
+      "image_prompt_en": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.",
+      "image_prompt_ru": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.\n\nПост: \"Как компании используют Bitbon для расширения капитала\"\nФормат: Разбор\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 57,
+      "title": "Венчурный капитал vs Bitbon финансирование",
+      "rubric": "E",
+      "format": "Сравнение",
+      "image_prompt_en": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.",
+      "image_prompt_ru": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.\n\nПост: \"Венчурный капитал vs Bitbon финансирование\"\nФормат: Сравнение\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 58,
+      "title": "Модель доходов на базе Bitbon метаасsets",
+      "rubric": "E",
+      "format": "Разбор",
+      "image_prompt_en": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.",
+      "image_prompt_ru": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.\n\nПост: \"Модель доходов на базе Bitbon метаасsets\"\nФормат: Разбор\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 59,
+      "title": "Стартапы, которые могут выиграть от Bitbon",
+      "rubric": "E",
+      "format": "Обзор",
+      "image_prompt_en": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.",
+      "image_prompt_ru": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.\n\nПост: \"Стартапы, которые могут выиграть от Bitbon\"\nФормат: Обзор\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 60,
+      "title": "Как интегрировать Bitbon в существующий бизнес",
+      "rubric": "E",
+      "format": "Инструкция",
+      "image_prompt_en": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.",
+      "image_prompt_ru": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.\n\nПост: \"Как интегрировать Bitbon в существующий бизнес\"\nФормат: Инструкция\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 61,
+      "title": "Противоречия в современном венчур-инвестировании и как их решить",
+      "rubric": "E",
+      "format": "Аргумент",
+      "image_prompt_en": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.",
+      "image_prompt_ru": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.\n\nПост: \"Противоречия в современном венчур-инвестировании и как их решить\"\nФормат: Аргумент\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 62,
+      "title": "Bitbon как инструмент для B2B платежей",
+      "rubric": "E",
+      "format": "Применение",
+      "image_prompt_en": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.",
+      "image_prompt_ru": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.\n\nПост: \"Bitbon как инструмент для B2B платежей\"\nФормат: Применение\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 63,
+      "title": "Масштабирование бизнеса без больших долгов",
+      "rubric": "E",
+      "format": "Стратегия",
+      "image_prompt_en": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.",
+      "image_prompt_ru": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.\n\nПост: \"Масштабирование бизнеса без больших долгов\"\nФормат: Стратегия\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 64,
+      "title": "Регулирование Bitbon в разных странах",
+      "rubric": "E",
+      "format": "Обзор",
+      "image_prompt_en": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.",
+      "image_prompt_ru": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.\n\nПост: \"Регулирование Bitbon в разных странах\"\nФормат: Обзор\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 65,
+      "title": "Риски и защита для инвесторов в Bitbon",
+      "rubric": "E",
+      "format": "Честность",
+      "image_prompt_en": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.",
+      "image_prompt_ru": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.\n\nПост: \"Риски и защита для инвесторов в Bitbon\"\nФормат: Честность\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 66,
+      "title": "Как создать экосистему вокруг вашего Bitbon",
+      "rubric": "E",
+      "format": "Видение",
+      "image_prompt_en": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.",
+      "image_prompt_ru": "Бизнес экосистема как интеграция разных компонентов: люди, компании, платформы. Все соединены и светятся. Корпоративный, но инновационный стиль. 1024x1024.\n\nПост: \"Как создать экосистему вокруг вашего Bitbon\"\nФормат: Видение\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 67,
+      "title": "Стоимость обслуживания Bitbon vs традиционные финансы",
+      "rubric": "E",
+      "format": "Расчёт",
+      "image_prompt_en": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.",
+      "image_prompt_ru": "Финансовые потоки в Bitbon - стрелки денег/ценности, текущие между узлами. Золотые и зелёные цвета. Процветание, рост. 1024x1024.\n\nПост: \"Стоимость обслуживания Bitbon vs традиционные финансы\"\nФормат: Расчёт\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 68,
+      "title": "Что нужно знать перед выпуском своего Bitbon",
+      "rubric": "E",
+      "format": "Чеклист",
+      "image_prompt_en": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.",
+      "image_prompt_ru": "Автоматизация бизнеса через смарт-контракты - робот или программа, управляющая потоками между компаниями. 1024x1024.\n\nПост: \"Что нужно знать перед выпуском своего Bitbon\"\nФормат: Чеклист\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 69,
+      "title": "Партнёрства и сотрудничество через Bitbon",
+      "rubric": "E",
+      "format": "История",
+      "image_prompt_en": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.",
+      "image_prompt_ru": "Масштабируемость - маленькие компании растут и соединяются в большую сеть. Визуально показать рост и масштаб. 1024x1024.\n\nПост: \"Партнёрства и сотрудничество через Bitbon\"\nФормат: История\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 70,
+      "title": "Будущее корпоративного финансирования",
+      "rubric": "E",
+      "format": "Прогноз",
+      "image_prompt_en": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.",
+      "image_prompt_ru": "Партнёрство и сотрудничество - две или три линии энергии, сливающиеся в одну более мощную. Синергия. 1024x1024.\n\nПост: \"Будущее корпоративного финансирования\"\nФормат: Прогноз\nСтиль: Корпоративный, инновационный, профессиональный, процветающий",
+      "style_keywords": [
+        "Корпоративный",
+        "инновационный",
+        "профессиональный",
+        "процветающий"
+      ],
+      "color_scheme": "Gold, green, blue, corporate colors",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_E",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 71,
+      "title": "Скандал Uber: как это выглядело бы в Web 4.0",
+      "rubric": "F",
+      "format": "Кейс",
+      "image_prompt_en": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.",
+      "image_prompt_ru": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.\n\nПост: \"Скандал Uber: как это выглядело бы в Web 4.0\"\nФормат: Кейс\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 72,
+      "title": "Theano и Элизабет Холмс: крах лжи в Web 4.0",
+      "rubric": "F",
+      "format": "Анализ",
+      "image_prompt_en": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.",
+      "image_prompt_ru": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.\n\nПост: \"Theano и Элизабет Холмс: крах лжи в Web 4.0\"\nФормат: Анализ\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 73,
+      "title": "Enron: как это раскрылось бы в Web 4.0",
+      "rubric": "F",
+      "format": "История",
+      "image_prompt_en": "Трансформация: Было → Стало. Две стороны изображения показывают до и после применения Bitbon. Контрастные цвета. 1024x1024.",
+      "image_prompt_ru": "Трансформация: Было → Стало. Две стороны изображения показывают до и после применения Bitbon. Контрастные цвета. 1024x1024.\n\nПост: \"Enron: как это раскрылось бы в Web 4.0\"\nФормат: История\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 74,
+      "title": "Facebook и утечка данных: проверка на прозрачность",
+      "rubric": "F",
+      "format": "Проблема",
+      "image_prompt_en": "Доказательство влияния - граф или диаграмма, показывающие как один пользователь повлиял на сеть. Волновые эффекты. 1024x1024.",
+      "image_prompt_ru": "Доказательство влияния - граф или диаграмма, показывающие как один пользователь повлиял на сеть. Волновые эффекты. 1024x1024.\n\nПост: \"Facebook и утечка данных: проверка на прозрачность\"\nФормат: Проблема\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 75,
+      "title": "Крах банков: как регуляторы пропускают проблемы",
+      "rubric": "F",
+      "format": "Анализ",
+      "image_prompt_en": "Сообщество, построенное вокруг успешного проекта на Bitbon. Множество людей, связанных сетью, светящейся от успеха. 1024x1024.",
+      "image_prompt_ru": "Сообщество, построенное вокруг успешного проекта на Bitbon. Множество людей, связанных сетью, светящейся от успеха. 1024x1024.\n\nПост: \"Крах банков: как регуляторы пропускают проблемы\"\nФормат: Анализ\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 76,
+      "title": "Лекарственные компании и скрытые эффекты: случай Oxycontin",
+      "rubric": "F",
+      "format": "Кейс",
+      "image_prompt_en": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.",
+      "image_prompt_ru": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.\n\nПост: \"Лекарственные компании и скрытые эффекты: случай Oxycontin\"\nФормат: Кейс\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 77,
+      "title": "Трудовые нарушения: как блокчейн защищает рабочих",
+      "rubric": "F",
+      "format": "Применение",
+      "image_prompt_en": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.",
+      "image_prompt_ru": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.\n\nПост: \"Трудовые нарушения: как блокчейн защищает рабочих\"\nФормат: Применение\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 78,
+      "title": "Коррупция в правительстве: конец взяток через прозрачность",
+      "rubric": "F",
+      "format": "Видение",
+      "image_prompt_en": "Трансформация: Было → Стало. Две стороны изображения показывают до и после применения Bitbon. Контрастные цвета. 1024x1024.",
+      "image_prompt_ru": "Трансформация: Было → Стало. Две стороны изображения показывают до и после применения Bitbon. Контрастные цвета. 1024x1024.\n\nПост: \"Коррупция в правительстве: конец взяток через прозрачность\"\nФормат: Видение\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 79,
+      "title": "Выборы и мошенничество: как блокчейн гарантирует честные выборы",
+      "rubric": "F",
+      "format": "Применение",
+      "image_prompt_en": "Доказательство влияния - граф или диаграмма, показывающие как один пользователь повлиял на сеть. Волновые эффекты. 1024x1024.",
+      "image_prompt_ru": "Доказательство влияния - граф или диаграмма, показывающие как один пользователь повлиял на сеть. Волновые эффекты. 1024x1024.\n\nПост: \"Выборы и мошенничество: как блокчейн гарантирует честные выборы\"\nФормат: Применение\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 80,
+      "title": "Медикаменты: борьба с подделками через Bitbon",
+      "rubric": "F",
+      "format": "Применение",
+      "image_prompt_en": "Сообщество, построенное вокруг успешного проекта на Bitbon. Множество людей, связанных сетью, светящейся от успеха. 1024x1024.",
+      "image_prompt_ru": "Сообщество, построенное вокруг успешного проекта на Bitbon. Множество людей, связанных сетью, светящейся от успеха. 1024x1024.\n\nПост: \"Медикаменты: борьба с подделками через Bitbon\"\nФормат: Применение\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 81,
+      "title": "Земля и окружающая среда: как Bitbon спасает природу",
+      "rubric": "F",
+      "format": "Видение",
+      "image_prompt_en": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.",
+      "image_prompt_ru": "Портрет успешного предпринимателя с символами достижений вокруг. Сертификаты, награды, растущий график. 1024x1024.\n\nПост: \"Земля и окружающая среда: как Bitbon спасает природу\"\nФормат: Видение\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 82,
+      "title": "Война и мир: как Bitbon останавливает конфликты",
+      "rubric": "F",
+      "format": "Философия",
+      "image_prompt_en": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.",
+      "image_prompt_ru": "История успеха как временная линия, где каждый этап светится и растёт. От маленького узла к большой сети. 1024x1024.\n\nПост: \"Война и мир: как Bitbon останавливает конфликты\"\nФормат: Философия\nСтиль: Вдохновляющий, подлинный, социальный, успех",
+      "style_keywords": [
+        "Вдохновляющий",
+        "подлинный",
+        "социальный",
+        "успех"
+      ],
+      "color_scheme": "Gold, green, warm colors, progressive",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_F",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 83,
+      "title": "Валюта Bitbon: зачем нужны стейблкоины",
+      "rubric": "G",
+      "format": "Объяснение",
+      "image_prompt_en": "Инвестирование - семена, которые растут в деревья стоимости. Природа + технология. 1024x1024.",
+      "image_prompt_ru": "Инвестирование - семена, которые растут в деревья стоимости. Природа + технология. 1024x1024.\n\nПост: \"Валюта Bitbon: зачем нужны стейблкоины\"\nФормат: Объяснение\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 84,
+      "title": "Инфляция: почему блокчейн защищает от деваляции",
+      "rubric": "G",
+      "format": "Экономика",
+      "image_prompt_en": "Экономическая стабильность - крепкий фундамент из блокчейна, на котором всё держится. 1024x1024.",
+      "image_prompt_ru": "Экономическая стабильность - крепкий фундамент из блокчейна, на котором всё держится. 1024x1024.\n\nПост: \"Инфляция: почему блокчейн защищает от деваляции\"\nФормат: Экономика\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 85,
+      "title": "Количество денег: сколько Bitbon должно быть",
+      "rubric": "G",
+      "format": "Политика",
+      "image_prompt_en": "Глобальная экономика - карта мира, соединённая Bitbon сетью. Экономический поток между странами. 1024x1024.",
+      "image_prompt_ru": "Глобальная экономика - карта мира, соединённая Bitbon сетью. Экономический поток между странами. 1024x1024.\n\nПост: \"Количество денег: сколько Bitbon должно быть\"\nФормат: Политика\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 86,
+      "title": "Дефляция: когда деньги становятся дороже",
+      "rubric": "G",
+      "format": "Теория",
+      "image_prompt_en": "Экономическая модель Bitbon как замкнутая система циркуляции стоимости. Визуально - круги энергии. 1024x1024.",
+      "image_prompt_ru": "Экономическая модель Bitbon как замкнутая система циркуляции стоимости. Визуально - круги энергии. 1024x1024.\n\nПост: \"Дефляция: когда деньги становятся дороже\"\nФормат: Теория\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 87,
+      "title": "Налоги в Web 4.0: справедливое распределение",
+      "rubric": "G",
+      "format": "Политика",
+      "image_prompt_en": "Стоимость и спрос - граф с восходящей линией, окруженный символами спроса. Неоновое свечение. 1024x1024.",
+      "image_prompt_ru": "Стоимость и спрос - граф с восходящей линией, окруженный символами спроса. Неоновое свечение. 1024x1024.\n\nПост: \"Налоги в Web 4.0: справедливое распределение\"\nФормат: Политика\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 88,
+      "title": "Базовый доход: может ли Web 4.0 дать всем деньги",
+      "rubric": "G",
+      "format": "Видение",
+      "image_prompt_en": "Инвестирование - семена, которые растут в деревья стоимости. Природа + технология. 1024x1024.",
+      "image_prompt_ru": "Инвестирование - семена, которые растут в деревья стоимости. Природа + технология. 1024x1024.\n\nПост: \"Базовый доход: может ли Web 4.0 дать всем деньги\"\nФормат: Видение\nСтиль: Финансовый, аналитический, стабильный, профессиональный",
+      "style_keywords": [
+        "Финансовый",
+        "аналитический",
+        "стабильный",
+        "профессиональный"
+      ],
+      "color_scheme": "Green for growth, gold for value, blue for stability",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_G",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 89,
+      "title": "Криптография и человеческая природа: почему система важнее людей",
+      "rubric": "H",
+      "format": "Философия",
+      "image_prompt_en": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.",
+      "image_prompt_ru": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.\n\nПост: \"Криптография и человеческая природа: почему система важнее людей\"\nФормат: Философия\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 90,
+      "title": "Честь и справедливость: почему Web 4.0 требует новой этики",
+      "rubric": "H",
+      "format": "Размышление",
+      "image_prompt_en": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.",
+      "image_prompt_ru": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.\n\nПост: \"Честь и справедливость: почему Web 4.0 требует новой этики\"\nФормат: Размышление\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 91,
+      "title": "Почему справедливость — это первый принцип Web 4.0",
+      "rubric": "H",
+      "format": "Философия",
+      "image_prompt_en": "Будущее человечества - люди и AI в гармонии, соединённые блокчейном. Философское, вдохновляющее. 1024x1024.",
+      "image_prompt_ru": "Будущее человечества - люди и AI в гармонии, соединённые блокчейном. Философское, вдохновляющее. 1024x1024.\n\nПост: \"Почему справедливость — это первый принцип Web 4.0\"\nФормат: Философия\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 92,
+      "title": "Правда о собственности в цифровом мире",
+      "rubric": "H",
+      "format": "Разбор",
+      "image_prompt_en": "Свобода и децентрализация - голубь, летящий из сетей в открытое небо. Метафора. 1024x1024.",
+      "image_prompt_ru": "Свобода и децентрализация - голубь, летящий из сетей в открытое небо. Метафора. 1024x1024.\n\nПост: \"Правда о собственности в цифровом мире\"\nФормат: Разбор\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 93,
+      "title": "Можно ли остановить технологию?",
+      "rubric": "H",
+      "format": "Аргумент",
+      "image_prompt_en": "Единство - люди из разных мест, соединённые одной идеей. Разнообразие и единство. 1024x1024.",
+      "image_prompt_ru": "Единство - люди из разных мест, соединённые одной идеей. Разнообразие и единство. 1024x1024.\n\nПост: \"Можно ли остановить технологию?\"\nФормат: Аргумент\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 94,
+      "title": "Человечество готово к децентрализации?",
+      "rubric": "H",
+      "format": "Размышление",
+      "image_prompt_en": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.",
+      "image_prompt_ru": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.\n\nПост: \"Человечество готово к децентрализации?\"\nФормат: Размышление\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 95,
+      "title": "История повторяется: от феодализма к цифровой демократии",
+      "rubric": "H",
+      "format": "История",
+      "image_prompt_en": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.",
+      "image_prompt_ru": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.\n\nПост: \"История повторяется: от феодализма к цифровой демократии\"\nФормат: История\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 96,
+      "title": "Кто выигрывает от централизованных систем и почему они сопротивляются",
+      "rubric": "H",
+      "format": "Анализ",
+      "image_prompt_en": "Будущее человечества - люди и AI в гармонии, соединённые блокчейном. Философское, вдохновляющее. 1024x1024.",
+      "image_prompt_ru": "Будущее человечества - люди и AI в гармонии, соединённые блокчейном. Философское, вдохновляющее. 1024x1024.\n\nПост: \"Кто выигрывает от централизованных систем и почему они сопротивляются\"\nФормат: Анализ\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 97,
+      "title": "Роль репутации в справедливом обществе",
+      "rubric": "H",
+      "format": "Концепция",
+      "image_prompt_en": "Свобода и децентрализация - голубь, летящий из сетей в открытое небо. Метафора. 1024x1024.",
+      "image_prompt_ru": "Свобода и децентрализация - голубь, летящий из сетей в открытое небо. Метафора. 1024x1024.\n\nПост: \"Роль репутации в справедливом обществе\"\nФормат: Концепция\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 98,
+      "title": "Пост-деньги: как будет выглядеть экономика через 50 лет",
+      "rubric": "H",
+      "format": "Видение",
+      "image_prompt_en": "Единство - люди из разных мест, соединённые одной идеей. Разнообразие и единство. 1024x1024.",
+      "image_prompt_ru": "Единство - люди из разных мест, соединённые одной идеей. Разнообразие и единство. 1024x1024.\n\nПост: \"Пост-деньги: как будет выглядеть экономика через 50 лет\"\nФормат: Видение\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 99,
+      "title": "Технология vs. человечность в новой экономике",
+      "rubric": "H",
+      "format": "Диалог",
+      "image_prompt_en": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.",
+      "image_prompt_ru": "Эволюция - от древних методов к цифровому будущему. Временная шкала развития. 1024x1024.\n\nПост: \"Технология vs. человечность в новой экономике\"\nФормат: Диалог\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    },
+    {
+      "post_number": 100,
+      "title": "Завершающее слово: почему я верю в Bitbon и Web 4.0",
+      "rubric": "H",
+      "format": "Манифест",
+      "image_prompt_en": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.",
+      "image_prompt_ru": "Надежда и возможность - свет в конце туннеля, путь к лучшему будущему через Bitbon. 1024x1024.\n\nПост: \"Завершающее слово: почему я верю в Bitbon и Web 4.0\"\nФормат: Манифест\nСтиль: Философский, вдохновляющий, глубокий, оптимистичный",
+      "style_keywords": [
+        "Философский",
+        "вдохновляющий",
+        "глубокий",
+        "оптимистичный"
+      ],
+      "color_scheme": "Warm colors mixed with cool tech colors, balanced",
+      "composition": "1024x1024 square format for Instagram. Centered composition with balanced visual weight.",
+      "category": "rubric_H",
+      "image_size": "1024x1024",
+      "format_requirements": "1:1 square, suitable for Instagram feed, optimized for mobile viewing"
+    }
+  ],
+  "guidelines": {
+    "image_size": "1024x1024px (1:1 square for Instagram)",
+    "style": "Modern, professional, tech-forward, cyberpunk aesthetic with minimalist elements",
+    "color_palette": [
+      "Electric Blue (#00D4FF)",
+      "Neon Purple (#D946EF)",
+      "Cyan (#06B6D4)",
+      "Lime Green (#84CC16)",
+      "Coral Pink (#FF6B9D)",
+      "Gold (#FFD700)",
+      "Deep Black (#0A0A0A)"
+    ],
+    "key_elements": [
+      "Glowing effects and neon lighting",
+      "Blockchain and network visualizations",
+      "Futuristic tech elements",
+      "Smooth gradients and modern aesthetics",
+      "Particle effects and lens flares",
+      "Decentralization symbols",
+      "Digital security elements",
+      "Innovation and forward-thinking imagery"
+    ],
+    "avoid": [
+      "Blurry or low quality images",
+      "Outdated or generic stock photography",
+      "Clichéd crypto imagery",
+      "Overly complicated compositions",
+      "Watermarks or logos"
+    ],
+    "generation_tips": [
+      "Use the English prompts (image_prompt_en) for AI image generators",
+      "Each prompt is designed for the specific rubric and post theme",
+      "Prompts are optimized for DALL-E, Stable Diffusion, and Midjourney",
+      "All images should be 1024x1024 (1:1 aspect ratio)",
+      "Maintain consistent visual style across all 100 images",
+      "Use the color palette guidelines for coherent brand aesthetics"
+    ],
+    "ai_providers": {
+      "openai": "Use DALL-E 3 with quality='hd'",
+      "stability": "Use Stable Diffusion XL with cfg_scale=7",
+      "midjourney": "Use --ar 1:1 --quality 2 --v 6"
+    }
+  },
+  "metadata": {
+    "created_at": "2026-04-14T15:31:45.629Z",
+    "posts_count": 100,
+    "rubrics": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "mapping_status": "Complete 1:1 mapping of all posts to image prompts"
   }
-]
+}
