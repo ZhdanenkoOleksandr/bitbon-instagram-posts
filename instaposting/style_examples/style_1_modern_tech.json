@@ -1,0 +1,10 @@
+{
+  "name": "Modern Tech",
+  "description": "Minimalist, futuristic blockchain aesthetic",
+  "color_palette": ["#1a1a2e", "#0f3460", "#16c784", "#00d4ff", "#ffd700"],
+  "background": "dark_gradient_navy_to_black",
+  "accent_color": "electric_blue",
+  "typography": "bold_sans_serif",
+  "elements": ["blockchain_nodes", "flowing_particles", "geometric_shapes"],
+  "example_prompt": "Minimalist dark background with blockchain network nodes, flowing particles in electric blue, centered text '{title}', professional, modern, 4K, square format"
+}

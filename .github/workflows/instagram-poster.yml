@@ -1,0 +1,52 @@
+name: Instagram Auto-Poster
+
+on:
+  schedule:
+    # 9 AM Moscow time (06:00 UTC)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          cd src/instagram-auto-poster
+          npm install
+
+      - name: Create .env file
+        run: |
+          cd src/instagram-auto-poster
+          cat > .env << EOF
+          INSTAGRAM_BUSINESS_ACCOUNT_ID=${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+          INSTAGRAM_ACCESS_TOKEN=${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          IMAGE_PROVIDER=${{ secrets.IMAGE_PROVIDER }}
+          IMAGE_API_KEY=${{ secrets.IMAGE_API_KEY }}
+          IMAGE_MODEL=${{ secrets.IMAGE_MODEL }}
+          CRON_TIME=0 9 * * *
+          TIMEZONE=Europe/Moscow
+          VERBOSE=false
+          EOF
+
+      - name: Post to Instagram
+        run: |
+          cd src/instagram-auto-poster
+          node post-immediately.js
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            core.setFailed('Instagram post failed!')

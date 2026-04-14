@@ -1,0 +1,10 @@
+{
+  "name": "Cyberpunk Neon",
+  "description": "High-energy neon aesthetic with digital vibes",
+  "color_palette": ["#0d0221", "#1d0f4d", "#3a0ca3", "#00f5ff", "#ff006e"],
+  "background": "dark_navy_with_glow",
+  "accent_color": "neon_green",
+  "typography": "futuristic_bold",
+  "elements": ["floating_coins", "digital_streams", "neon_accents"],
+  "example_prompt": "Cryptocurrency wallet interface, minimalist design, floating digital coins with blockchain symbols, dark mode, neon green accents, professional typography, square 4K"
+}

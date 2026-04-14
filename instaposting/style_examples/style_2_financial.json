@@ -1,0 +1,10 @@
+{
+  "name": "Financial Premium",
+  "description": "Golden, professional financial vibes",
+  "color_palette": ["#0a0e27", "#1a1f3a", "#ffd700", "#00c8ff", "#2a9d8f"],
+  "background": "dark_with_subtle_grid",
+  "accent_color": "gold",
+  "typography": "elegant_serif",
+  "elements": ["ascending_bars", "metrics_display", "abstract_silhouettes"],
+  "example_prompt": "Digital reputation system visualization, ascending bars with golden gradient, metrics display, abstract elements, dark theme, premium feel, 8K Instagram square"
+}

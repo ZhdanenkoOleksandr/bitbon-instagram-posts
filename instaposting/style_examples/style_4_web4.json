@@ -1,0 +1,10 @@
+{
+  "name": "Web 4.0 Infrastructure",
+  "description": "Interconnected nodes and data flows",
+  "color_palette": ["#0f0f0f", "#1a1a1a", "#00d4ff", "#00ff88", "#ffa500"],
+  "background": "dark_charcoal_gradient",
+  "accent_color": "cyan_blue",
+  "typography": "tech_bold",
+  "elements": ["interconnected_nodes", "data_streams", "network_diagram"],
+  "example_prompt": "Web 4.0 infrastructure visualization, interconnected nodes, flowing data streams in electric blue, futuristic design, dark background, bold centered text, 4K Instagram"
+}

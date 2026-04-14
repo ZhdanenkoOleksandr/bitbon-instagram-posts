@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text Input Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        label {
+            display: block;
+            color: #555;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: inherit;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .tip {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            border-radius: 4px;
+            color: #1565c0;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        .tip strong {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .info-box {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .info-box h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .info-box li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎤 Диктовка с распознаванием речи</h1>
+
+    <div class="container">
+        <div class="card">
+            <h2>Примеры текстовых полей</h2>
+
+            <label for="input1">Текстовое поле (input):</label>
+            <input type="text" id="input1" placeholder="Нажми ПРОБЕЛ и начни говорить...">
+
+            <label for="textarea1">Текстовая область (textarea):</label>
+            <textarea id="textarea1" placeholder="Нажми ПРОБЕЛ и начни говорить..."></textarea>
+
+            <label for="input2">Email поле (тоже работает):</label>
+            <input type="text" id="input2" placeholder="Нажми ПРОБЕЛ и начни говорить...">
+
+            <div class="tip">
+                <strong>💡 Как использовать:</strong>
+                1. Кликни на любое текстовое поле выше<br>
+                2. Нажми и удерживай ПРОБЕЛ<br>
+                3. Говори по-русски<br>
+                4. Отпусти ПРОБЕЛ — текст вставится автоматически
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Contenteditable элемент</h2>
+            <div id="editable" contenteditable="true" style="
+                border: 2px solid #e0e0e0;
+                border-radius: 8px;
+                padding: 12px 15px;
+                min-height: 100px;
+                font-size: 16px;
+                color: #333;
+                transition: all 0.3s ease;
+            " placeholder="Нажми ПРОБЕЛ и начни говорить...">Редактируемый текст...</div>
+
+            <div class="tip" style="margin-top: 15px;">
+                <strong>✨ Особенность:</strong>
+                Этот элемент можно редактировать прямо как текст
+            </div>
+        </div>
+
+        <div class="card info-box">
+            <h3>ℹ️ Системные требования</h3>
+            <ul>
+                <li><strong>Браузер:</strong> Chrome, Edge, Safari (не требует установки)</li>
+                <li><strong>Микрофон:</strong> Подключен и разрешен доступ</li>
+                <li><strong>Язык:</strong> Русский (и другие поддерживаемые Web Speech API)</li>
+                <li><strong>Интернет:</strong> Не требуется после первой загрузки</li>
+            </ul>
+        </div>
+
+        <div class="card info-box">
+            <h3>🔧 Технические детали</h3>
+            <ul>
+                <li>Использует встроенный Web Speech API браузера</li>
+                <li>Работает с input, textarea и contentEditable элементами</li>
+                <li>Вставляет текст в позицию курсора</li>
+                <li>Поддерживает промежуточные результаты распознавания</li>
+                <li>Совместим с React, Vue, Angular и другими фреймворками</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Подключаем скрипт распознавания речи -->
+    <script src="speech-input.js"></script>
+</body>
+</html>

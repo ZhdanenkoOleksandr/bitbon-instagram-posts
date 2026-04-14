@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КОНТЕНТ-ПЛАН</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            .print-button {
+                display: none;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #E1306C;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #E1306C;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        .print-button {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .print-button button {
+            padding: 10px 20px;
+            background: #E1306C;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .print-button button:hover {
+            background: #c91256;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(225, 48, 108, 0.3);
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #E1306C;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #FED373;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-number {
+            background: #E1306C;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            border-left: 3px solid #E1306C;
+        }
+
+        .info-box {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #FED373;
+        }
+
+        .info-box label {
+            font-weight: 600;
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .info-box input,
+        .info-box textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+            margin-bottom: 10px;
+        }
+
+        .info-box textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        table th {
+            background: #E1306C;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        table tr:hover {
+            background: #f0f0f0;
+        }
+
+        .idea-card {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #FED373;
+        }
+
+        .idea-number {
+            background: #E1306C;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        .idea-title {
+            font-weight: 600;
+            color: #333;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+
+        .idea-description {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 8px;
+        }
+
+        .tag {
+            background: #E1306C;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .goal-box {
+            background: #fff5e6;
+            border-left: 4px solid #FED373;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .goal-label {
+            font-weight: 600;
+            color: #E1306C;
+            margin-bottom: 5px;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, #E1306C 0%, #c91256 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .metric-card .label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .metric-card .value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #999;
+            font-size: 12px;
+        }
+
+        .editable-note {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #1565c0;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+
+            table {
+                font-size: 12px;
+            }
+
+            table th,
+            table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="print-button no-print">
+            <button onclick="window.print()">🖨️ Печать / Скачать PDF</button>
+        </div>
+
+        <header>
+            <h1>📱 КОНТЕНТ-ПЛАН</h1>
+            <p class="subtitle">Instagram стратегия и календарь постов</p>
+        </header>
+
+        <!-- РАЗДЕЛ 1: ИНФОРМАЦИЯ О ПРОФИЛЕ -->
+        <section>
+            <h2><span class="section-number">1</span> ИНФОРМАЦИЯ О ПРОФИЛЕ</h2>
+
+            <div class="info-box">
+                <label>📌 Название профиля</label>
+                <input type="text" placeholder="Введи название твоего профиля">
+            </div>
+
+            <div class="info-box">
+                <label>🎯 Ниша / Индустрия</label>
+                <input type="text" placeholder="Например: Fashion, Beauty, Lifestyle, Бизнес и т.д.">
+            </div>
+
+            <div class="info-box">
+                <label>👥 Целевая аудитория</label>
+                <input type="text" placeholder="Описание целевой аудитории (возраст, интересы, пол)">
+            </div>
+
+            <div class="info-box">
+                <label>💡 Главные ценности бренда</label>
+                <textarea placeholder="Что важно твоему бренду? Какие значения ты продвигаешь?"></textarea>
+            </div>
+
+            <div class="info-box">
+                <label>🎨 Главный цвет бренда</label>
+                <input type="text" placeholder="Например: Розовый, Синий и т.д.">
+            </div>
+        </section>
+
+        <!-- РАЗДЕЛ 2: СТРАТЕГИЯ КОНТЕНТА -->
+        <section>
+            <h2><span class="section-number">2</span> СТРАТЕГИЯ КОНТЕНТА</h2>
+
+            <div class="info-box">
+                <label>🎯 Основная цель контента</label>
+                <textarea placeholder="Что ты хочешь достичь? (например: увеличить охват, продажи, узнаваемость бренда)"></textarea>
+            </div>
+
+            <h3>📝 Основные темы контента</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Тема</th>
+                        <th>% Контента</th>
+                        <th>Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="Тема 1"></td>
+                        <td><input type="text" placeholder="20%" style="width: 80px;"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Тема 2"></td>
+                        <td><input type="text" placeholder="30%" style="width: 80px;"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Тема 3"></td>
+                        <td><input type="text" placeholder="25%" style="width: 80px;"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Тема 4"></td>
+                        <td><input type="text" placeholder="25%" style="width: 80px;"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>🎭 Тон и стиль контента</h3>
+            <div class="info-box">
+                <label>Как ты общаешься с аудиторией?</label>
+                <textarea placeholder="Профессионально, дружелюбно, шутливо, вдохновляющее и т.д."></textarea>
+            </div>
+
+            <h3>⏰ Расписание постинга</h3>
+            <div class="goal-box">
+                <div class="goal-label">📅 Постов в неделю:</div>
+                <input type="number" placeholder="Например: 4" style="width: 100px;">
+            </div>
+
+            <div class="goal-box">
+                <div class="goal-label">⏲️ Лучшее время для постинга:</div>
+                <input type="text" placeholder="Например: 10:00, 15:00, 19:00">
+            </div>
+        </section>
+
+        <!-- РАЗДЕЛ 3: ТИПЫ КОНТЕНТА -->
+        <section>
+            <h2><span class="section-number">3</span> ТИПЫ КОНТЕНТА</h2>
+
+            <div class="editable-note">
+                Выбери типы контента, которые лучше всего работают для твоего бренда
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Тип контента</th>
+                        <th>Описание</th>
+                        <th>Частота</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📸 Карусели (Slides)</td>
+                        <td>Многостраничные посты с советами, трансформациями</td>
+                        <td><input type="text" placeholder="2 в неделю" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>🎬 Reels</td>
+                        <td>Короткие видео (15-60 сек) для максимального охвата</td>
+                        <td><input type="text" placeholder="1-2 в неделю" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>📖 Stories</td>
+                        <td>Истории со ссылками, опросами, взаимодействием</td>
+                        <td><input type="text" placeholder="ежедневно" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>📝 Образовательный контент</td>
+                        <td>Советы, гайды, лайфхаки, обучающие видео</td>
+                        <td><input type="text" placeholder="1-2 в неделю" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>🎯 Рекламные посты</td>
+                        <td>Промо услуг, товаров, специальные предложения</td>
+                        <td><input type="text" placeholder="1 в неделю" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>🎭 За кулисами (Behind the Scenes)</td>
+                        <td>Закулисный контент, рабочий процесс, персоналу</td>
+                        <td><input type="text" placeholder="1-2 в неделю" style="width: 100px;"></td>
+                    </tr>
+                    <tr>
+                        <td>🏆 Челленджи и конкурсы</td>
+                        <td>Интерактивный контент для вовлечения</td>
+                        <td><input type="text" placeholder="1-2 в месяц" style="width: 100px;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- РАЗДЕЛ 4: КАЛЕНДАРЬ ПОСТОВ -->
+        <section>
+            <h2><span class="section-number">4</span> КАЛЕНДАРЬ ПОСТОВ НА МЕСЯЦ</h2>
+
+            <div class="editable-note">
+                Заполни плановые посты на текущий месяц. Ты можешь добавить или удалить строки по необходимости.
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Тип контента</th>
+                        <th>Тема</th>
+                        <th>Описание / Заголовок</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="date"></td>
+                        <td><input type="text" placeholder="Пост/Reel/Story"></td>
+                        <td><input type="text" placeholder="Тема"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                        <td><select style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option>Плано</option>
+                            <option>Снимаю</option>
+                            <option>Готово</option>
+                            <option>Опубликовано</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date"></td>
+                        <td><input type="text" placeholder="Пост/Reel/Story"></td>
+                        <td><input type="text" placeholder="Тема"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                        <td><select style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option>Плано</option>
+                            <option>Снимаю</option>
+                            <option>Готово</option>
+                            <option>Опубликовано</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date"></td>
+                        <td><input type="text" placeholder="Пост/Reel/Story"></td>
+                        <td><input type="text" placeholder="Тема"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                        <td><select style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option>Плано</option>
+                            <option>Снимаю</option>
+                            <option>Готово</option>
+                            <option>Опубликовано</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><input type="date"></td>
+                        <td><input type="text" placeholder="Пост/Reel/Story"></td>
+                        <td><input type="text" placeholder="Тема"></td>
+                        <td><input type="text" placeholder="Описание"></td>
+                        <td><select style="padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option>Плано</option>
+                            <option>Снимаю</option>
+                            <option>Готово</option>
+                            <option>Опубликовано</option>
+                        </select></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- РАЗДЕЛ 5: ИДЕИ ДЛЯ ПОСТОВ -->
+        <section>
+            <h2><span class="section-number">5</span> ТОП-20 ИДЕЙ ДЛЯ ПОСТОВ</h2>
+
+            <div class="editable-note">
+                Выпиши свои идеи. Эти идеи помогут тебе не пропустить вдохновение и всегда иметь что постить
+            </div>
+
+            <div class="idea-card">
+                <div><span class="idea-number">1</span><span class="idea-title">Идея</span></div>
+                <div class="idea-description">Описание и детали идеи</div>
+                <div class="tags">
+                    <span class="tag">Формат</span>
+                    <span class="tag">Тема</span>
+                </div>
+            </div>
+
+            <div class="idea-card">
+                <div><span class="idea-number">2</span><span class="idea-title">Идея</span></div>
+                <div class="idea-description">Описание и детали идеи</div>
+                <div class="tags">
+                    <span class="tag">Формат</span>
+                    <span class="tag">Тема</span>
+                </div>
+            </div>
+
+            <div class="idea-card">
+                <div><span class="idea-number">3</span><span class="idea-title">Идея</span></div>
+                <div class="idea-description">Описание и детали идеи</div>
+                <div class="tags">
+                    <span class="tag">Формат</span>
+                    <span class="tag">Тема</span>
+                </div>
+            </div>
+
+            <div class="editable-note" style="margin-top: 20px;">
+                💡 Совет: используй эту таблицу как вдохновение. Скопируй, отредактируй под свои идеи и добавь ещё 17 идей!
+            </div>
+        </section>
+
+        <!-- РАЗДЕЛ 6: АНАЛИТИКА И ПОКАЗАТЕЛИ -->
+        <section>
+            <h2><span class="section-number">6</span> ПОКАЗАТЕЛИ И АНАЛИТИКА</h2>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="label">👥 ЦЕЛЕВОЙ ОХВАТ В МЕСЯЦ</div>
+                    <div class="value"><input type="number" placeholder="50000" style="width: 150px; text-align: center; font-size: 24px; border: none; background: none; color: white;"></div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">❤️ ЦЕЛЕВАЯ ВОВЛЕЧЕННОСТЬ</div>
+                    <div class="value"><input type="number" placeholder="5%" style="width: 150px; text-align: center; font-size: 24px; border: none; background: none; color: white;"></div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">📈 ПРИРОСТ ПОДПИСЧИКОВ</div>
+                    <div class="value"><input type="number" placeholder="500" style="width: 150px; text-align: center; font-size: 24px; border: none; background: none; color: white;"></div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">💰 ЦЕЛЕВАЯ КОНВЕРСИЯ</div>
+                    <div class="value"><input type="number" placeholder="2%" style="width: 150px; text-align: center; font-size: 24px; border: none; background: none; color: white;"></div>
+                </div>
+            </div>
+
+            <h3>📊 Метрики для отслеживания</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Показатель</th>
+                        <th>Текущее значение</th>
+                        <th>Цель на месяц</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Всего подписчиков</td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><span class="tag" style="margin: 0;">Отслеживать</span></td>
+                    </tr>
+                    <tr>
+                        <td>Средний охват поста</td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><span class="tag" style="margin: 0;">Отслеживать</span></td>
+                    </tr>
+                    <tr>
+                        <td>Средняя вовлеченность (%)</td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><span class="tag" style="margin: 0;">Отслеживать</span></td>
+                    </tr>
+                    <tr>
+                        <td>Сохранения</td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><span class="tag" style="margin: 0;">Отслеживать</span></td>
+                    </tr>
+                    <tr>
+                        <td>Переходы на сайт</td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><input type="number" placeholder="0"></td>
+                        <td><span class="tag" style="margin: 0;">Отслеживать</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- РАЗДЕЛ 7: ПАРТНЁРСТВА И СОТРУДНИЧЕСТВА -->
+        <section>
+            <h2><span class="section-number">7</span> ПАРТНЁРСТВА И СОТРУДНИЧЕСТВА</h2>
+
+            <h3>🤝 Потенциальные партнёры</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Профиль / Бренд</th>
+                        <th>Ниша</th>
+                        <th>Аудитория</th>
+                        <th>Тип колаба</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="@профиль"></td>
+                        <td><input type="text" placeholder="Ниша"></td>
+                        <td><input type="text" placeholder="Размер"></td>
+                        <td><input type="text" placeholder="Тип"></td>
+                        <td><input type="text" placeholder="На рассмотрении"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="@профиль"></td>
+                        <td><input type="text" placeholder="Ниша"></td>
+                        <td><input type="text" placeholder="Размер"></td>
+                        <td><input type="text" placeholder="Тип"></td>
+                        <td><input type="text" placeholder="На рассмотрении"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>⭐ Инфлюенсеры для сотрудничества</h3>
+            <div class="info-box">
+                <label>Список потенциальных инфлюенсеров</label>
+                <textarea placeholder="@инфлюенсер1 (50K фолловеров)&#10;@инфлюенсер2 (100K фолловеров)&#10;@инфлюенсер3 (200K фолловеров)"></textarea>
+            </div>
+        </section>
+
+        <!-- РАЗДЕЛ 8: ЗАМЕТКИ И ПРАВИЛА -->
+        <section>
+            <h2><span class="section-number">8</span> ЗАМЕТКИ И ПРАВИЛА</h2>
+
+            <h3>✅ Чек-лист перед публикацией</h3>
+            <div style="margin-top: 15px;">
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Контент соответствует брендам гайдлайнам
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Фото/видео в хорошем качестве
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Текст проверен на ошибки
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Добавлены релевантные хэштеги
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Call-to-action (призыв к действию) присутствует
+                </label>
+                <label style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; cursor: pointer;">
+                    <input type="checkbox"> Правильное время публикации
+                </label>
+            </div>
+
+            <h3>🏷️ Базовые хэштеги для всех постов</h3>
+            <div class="info-box">
+                <textarea placeholder="#Instagram #Content #ТвойНиша #ТвойБренд #Socialmedia"style="min-height: 60px;"></textarea>
+            </div>
+
+            <h3>📝 Дополнительные заметки</h3>
+            <div class="info-box">
+                <textarea placeholder="Запишите здесь свои заметки, идеи, наблюдения и улучшения контент-плана" style="min-height: 120px;"></textarea>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>📄 КОНТЕНТ-ПЛАН | Обновлено: <span id="date"></span></p>
+            <p>💡 Совет: Регулярно обновляй этот документ, отслеживай результаты и адаптируй стратегию</p>
+        </footer>
+    </div>
+
+    <script>
+        // Установка текущей даты
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('date').textContent = today.toLocaleDateString('ru-RU', options);
+
+        // Автосохранение в localStorage
+        const inputs = document.querySelectorAll('input, textarea, select');
+
+        inputs.forEach(input => {
+            const savedValue = localStorage.getItem(input.placeholder || input.name);
+            if (savedValue) {
+                input.value = savedValue;
+            }
+
+            input.addEventListener('change', () => {
+                localStorage.setItem(input.placeholder || input.name, input.value);
+            });
+
+            input.addEventListener('input', () => {
+                localStorage.setItem(input.placeholder || input.name, input.value);
+            });
+        });
+
+        console.log('✅ Контент-план загружен. Твои данные автоматически сохраняются в браузер.');
+    </script>
+</body>
+</html>
