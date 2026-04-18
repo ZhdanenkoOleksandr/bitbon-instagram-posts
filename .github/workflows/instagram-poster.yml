@@ -14,17 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'npm'
-          cache-dependency-path: 'src/instagram-auto-poster/package-lock.json'
-
       - name: Install dependencies
         run: |
           cd src/instagram-auto-poster
-          npm ci
+          npm ci --prefer-offline --no-audit
 
       - name: Create .env file
         run: |
