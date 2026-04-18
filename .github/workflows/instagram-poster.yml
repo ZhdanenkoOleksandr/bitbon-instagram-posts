@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd src/instagram-auto-poster
-          npm install
+          npm ci
 
       - name: Create .env file
         run: |
