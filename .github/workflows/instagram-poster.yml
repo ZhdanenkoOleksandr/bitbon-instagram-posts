@@ -2,8 +2,8 @@ name: Instagram Auto-Poster
 
 on:
   schedule:
-    # 9 AM Moscow time (06:00 UTC)
-    - cron: '0 6 * * *'
+    # 11:27 AM Kyiv time (08:27 UTC)
+    - cron: '27 8 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -19,6 +19,7 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
+          cache-dependency-path: 'src/instagram-auto-poster/package-lock.json'
 
       - name: Install dependencies
         run: |
@@ -34,8 +35,8 @@ jobs:
           IMAGE_PROVIDER=${{ secrets.IMAGE_PROVIDER }}
           IMAGE_API_KEY=${{ secrets.IMAGE_API_KEY }}
           IMAGE_MODEL=${{ secrets.IMAGE_MODEL }}
-          CRON_TIME=0 9 * * *
-          TIMEZONE=Europe/Moscow
+          CRON_TIME=27 11 * * *
+          TIMEZONE=Europe/Kyiv
           VERBOSE=false
           EOF
 
