@@ -1,4 +1,5 @@
 name: Instagram Auto-Poster
+# Updated: 2026-04-18 - Simplified workflow
 
 on:
   schedule:
