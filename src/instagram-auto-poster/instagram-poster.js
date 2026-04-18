@@ -52,18 +52,25 @@ class InstagramPoster {
     );
   }
 
-  async postNextContent() {
+  async postNextContent(retryCount = 0) {
     // Get available posts (not yet posted)
     const availablePosts = this.postsContent.filter(post =>
       !this.postedLog.some(logged => logged.postNumber === post.post_number)
     );
 
     if (availablePosts.length === 0) {
-      logger.warn('⚠️  All posts have been published! Resetting queue...');
-      this.postedLog = [];
-      this.savePostedLog();
-      // Retry with full list
-      return this.postNextContent();
+      // Prevent infinite recursion - only retry once
+      if (retryCount === 0) {
+        logger.warn('⚠️  All posts have been published! Resetting queue...');
+        this.postedLog = [];
+        this.savePostedLog();
+        // Retry with full list (only once)
+        return this.postNextContent(retryCount + 1);
+      } else {
+        // Second time no posts available - actually empty
+        logger.error('❌ No posts available even after reset. Check postsContent.json');
+        throw new Error('No posts available to publish');
+      }
     }
 
     // Select random post if enabled
