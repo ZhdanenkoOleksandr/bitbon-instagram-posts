@@ -182,7 +182,12 @@ class InstagramPoster {
 
     // Generate new image
     logger.info(`🎨 Generating image for post #${postNumber}...`);
+    logger.info(`[DEBUG] imagePrompts array length: ${this.imagePrompts.length}, accessing index: ${postNumber - 1}`);
     const imagePrompt = this.imagePrompts[postNumber - 1];
+    if (!imagePrompt) {
+      logger.error(`[DEBUG] Missing imagePrompt for post #${postNumber}. Array length: ${this.imagePrompts.length}`);
+      throw new Error(`No image prompt available for post #${postNumber}`);
+    }
     const generatedPath = await this.imageGenerator.generate(
       imagePrompt,
       postNumber
