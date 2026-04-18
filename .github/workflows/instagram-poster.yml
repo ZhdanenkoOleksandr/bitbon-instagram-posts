@@ -18,7 +18,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: false
+          cache: 'npm'
+          cache-dependency-path: 'src/instagram-auto-poster/package-lock.json'
 
       - name: Install dependencies
         run: |
