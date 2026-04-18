@@ -5,7 +5,20 @@ module.exports = {
   instagram: {
     businessAccountId: process.env.INSTAGRAM_BUSINESS_ACCOUNT_ID,
     accessToken: process.env.INSTAGRAM_ACCESS_TOKEN,
-    apiVersion: 'v18.0'
+    apiVersion: '18.0'
+  },
+
+  // Image Hosting - use GitHub for best compatibility with Instagram
+  github: {
+    token: process.env.GITHUB_TOKEN,
+    owner: process.env.GITHUB_OWNER || 'ZhdanenkoOleksandr',
+    repo: process.env.GITHUB_REPO || 'bitbon-instagram-images',
+    branch: 'main'
+  },
+
+  // imgbb Image Hosting Config (fallback)
+  imgbb: {
+    apiKey: process.env.IMGBB_API_KEY
   },
 
   // Image Generation Config (DALL-E, Stable Diffusion, etc.)
@@ -17,18 +30,18 @@ module.exports = {
 
   // Posting Schedule
   posting: {
-    // Cron expression: "0 9 * * *" = 9 AM daily
-    cronTime: process.env.CRON_TIME || '0 9 * * *', // 9 AM every day
-    timezone: process.env.TIMEZONE || 'Europe/Moscow',
+    // Cron expression: "27 11 * * *" = 11:27 AM daily (Kyiv time)
+    cronTime: process.env.CRON_TIME || '27 11 * * *', // 11:27 AM every day
+    timezone: process.env.TIMEZONE || 'Europe/Kyiv',
     randomOrder: true
   },
 
   // Paths
   paths: {
-    postsContent: '../../../instaposting/instagram_posts_content.json',
-    imagePrompts: '../../../instaposting/image_prompts.json',
-    styleExamples: '../../../instaposting/style_examples',
-    generatedImages: '../../../instaposting/generated_images',
+    postsContent: '../../instaposting/instagram_posts_content.json',
+    imagePrompts: '../../instaposting/image_prompts.json',
+    styleExamples: '../../instaposting/style_examples',
+    generatedImages: '../../instaposting/generated_images',
     postedLog: './data/posted.json'
   },
 
