@@ -16,6 +16,10 @@ class InstagramPoster {
 
   loadJSON(filePath) {
     try {
+      // Debug: log __dirname to verify module location
+      logger.info(`[DEBUG] __dirname in loadJSON: ${__dirname}`);
+      logger.info(`[DEBUG] filePath: ${filePath}`);
+
       // Resolve path from project root
       const fullPath = path.resolve(__dirname, filePath);
       logger.info(`Loading JSON from: ${fullPath}`);
@@ -24,6 +28,20 @@ class InstagramPoster {
     } catch (error) {
       const fullPath = path.resolve(__dirname, filePath);
       logger.error(`Error loading JSON from: ${fullPath}`, error);
+
+      // Try alternative path - one level up
+      try {
+        const altPath = path.resolve(__dirname, `..${path.sep}..${path.sep}..${path.sep}instaposting`, path.basename(filePath));
+        logger.info(`[DEBUG] Trying alternative path: ${altPath}`);
+        if (fs.existsSync(altPath)) {
+          logger.info(`[DEBUG] Found file at alternative path!`);
+          const data = fs.readFileSync(altPath, 'utf8');
+          return JSON.parse(data);
+        }
+      } catch (altError) {
+        logger.error(`[DEBUG] Alternative path also failed`, altError);
+      }
+
       return [];
     }
   }
