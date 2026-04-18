@@ -10,6 +10,12 @@ class InstagramPoster {
   constructor() {
     this.postsContent = this.loadJSON(config.paths.postsContent);
     this.imagePrompts = this.loadJSON(config.paths.imagePrompts);
+    logger.info(`[DEBUG] Constructor: postsContent type: ${typeof this.postsContent}, imagePrompts type: ${typeof this.imagePrompts}`);
+    if (Array.isArray(this.imagePrompts)) {
+      logger.info(`[DEBUG] imagePrompts is an array with ${this.imagePrompts.length} items`);
+    } else if (typeof this.imagePrompts === 'object') {
+      logger.info(`[DEBUG] imagePrompts is an object with keys: ${Object.keys(this.imagePrompts).join(', ').substring(0, 100)}`);
+    }
     this.postedLog = this.loadPostedLog();
     this.imageGenerator = new ImageGenerator();
   }
