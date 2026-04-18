@@ -1,11 +1,10 @@
-name: Instagram Auto-Poster
-# Updated: 2026-04-18 - Simplified workflow
+name: Instagram Post
 
 on:
   schedule:
     # 11:27 AM Kyiv time (08:27 UTC)
     - cron: '27 8 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   post:
@@ -13,8 +12,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-
+        uses: actions/checkout@v4
 
       - name: Create .env file
         run: |
@@ -37,7 +35,7 @@ jobs:
 
       - name: Notify on failure
         if: failure()
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             core.setFailed('Instagram post failed!')
