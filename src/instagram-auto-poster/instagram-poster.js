@@ -16,7 +16,9 @@ class InstagramPoster {
 
   loadJSON(filePath) {
     try {
-      const fullPath = path.join(__dirname, filePath);
+      // Resolve path from project root
+      const fullPath = path.resolve(__dirname, filePath);
+      logger.info(`Loading JSON from: ${fullPath}`);
       const data = fs.readFileSync(fullPath, 'utf8');
       return JSON.parse(data);
     } catch (error) {
@@ -27,8 +29,9 @@ class InstagramPoster {
 
   loadPostedLog() {
     try {
-      if (fs.existsSync(config.paths.postedLog)) {
-        const data = fs.readFileSync(config.paths.postedLog, 'utf8');
+      const postedLogPath = path.resolve(__dirname, config.paths.postedLog);
+      if (fs.existsSync(postedLogPath)) {
+        const data = fs.readFileSync(postedLogPath, 'utf8');
         return JSON.parse(data);
       }
     } catch (error) {
@@ -38,8 +41,13 @@ class InstagramPoster {
   }
 
   savePostedLog() {
+    const postedLogPath = path.resolve(__dirname, config.paths.postedLog);
+    const dir = path.dirname(postedLogPath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
     fs.writeFileSync(
-      config.paths.postedLog,
+      postedLogPath,
       JSON.stringify(this.postedLog, null, 2)
     );
   }
@@ -67,14 +75,13 @@ class InstagramPoster {
 
     try {
       // Generate or get image
-      const imageUrl = await this.getOrGenerateImage(selectedPost.post_number);
+      const imagePath = await this.getOrGenerateImage(selectedPost.post_number);
 
       // Prepare caption
       const caption = this.buildCaption(selectedPost);
 
-      // Upload to Instagram
-      const mediaId = await this.uploadImage(imageUrl);
-      const postId = await this.publishPost(mediaId, caption);
+      // Upload to Instagram directly with image file
+      const postId = await this.publishPostWithImage(imagePath, caption);
 
       // Log the posted content
       this.postedLog.push({
@@ -89,6 +96,48 @@ class InstagramPoster {
       return postId;
     } catch (error) {
       logger.error(`Failed to post content #${selectedPost.post_number}:`, error);
+      throw error;
+    }
+  }
+
+  async publishPostWithImage(imagePath, caption) {
+    try {
+      logger.info(`📸 Publishing image directly to Instagram...`);
+
+      // First, upload image to imgbb to get a public URL
+      const imageUrl = await this.uploadImage(imagePath);
+
+      const url = `https://graph.instagram.com/v${config.instagram.apiVersion}/${config.instagram.businessAccountId}/media`;
+
+      logger.info(`📍 Using endpoint: ${url}`);
+      logger.info(`📍 Using image URL: ${imageUrl}`);
+
+      // Create media container with image URL
+      const mediaResponse = await axios.post(url, {
+        image_url: imageUrl,
+        caption: caption,
+        access_token: config.instagram.accessToken
+      });
+
+      const creationId = mediaResponse.data.id;
+      logger.info(`✅ Media created with ID: ${creationId}`);
+
+      // Wait for Instagram to process the media (required for publishing)
+      logger.info(`⏳ Waiting for media processing...`);
+      await new Promise(resolve => setTimeout(resolve, 5000)); // 5 second delay
+      logger.info(`✅ Media processing complete, publishing...`);
+
+      // Publish the media
+      const publishUrl = `https://graph.instagram.com/v${config.instagram.apiVersion}/${config.instagram.businessAccountId}/media_publish`;
+      const publishResponse = await axios.post(publishUrl, {
+        creation_id: creationId,
+        access_token: config.instagram.accessToken
+      });
+
+      logger.info(`✅ Post published successfully! Post ID: ${publishResponse.data.id}`);
+      return publishResponse.data.id;
+    } catch (error) {
+      logger.error('Error publishing post with image:', error.response?.data || error.message);
       throw error;
     }
   }
@@ -140,37 +189,97 @@ class InstagramPoster {
 
   async uploadImage(imagePath) {
     try {
-      const form = new FormData();
-      const fileStream = fs.createReadStream(imagePath);
-      form.append('file', fileStream);
+      logger.info(`📍 GitHub Token: ${config.github.token ? 'Set' : 'Not set'}`);
+      logger.info(`📍 GitHub Owner: ${config.github.owner ? 'Set to ' + config.github.owner : 'Not set'}`);
 
-      // For now, return a mock media ID
-      // In production, this would upload to Instagram's media endpoint
-      logger.info(`📤 Uploading image: ${path.basename(imagePath)}`);
-
-      // Placeholder - actual implementation depends on Instagram Graph API
-      return `media_${Date.now()}`;
+      // If GitHub token is available, use GitHub for hosting
+      if (config.github.token && config.github.owner) {
+        logger.info(`📍 Using GitHub for image hosting...`);
+        return await this.uploadToGitHub(imagePath);
+      }
+      // Fallback to imgbb
+      logger.info(`📍 GitHub not configured, using imgbb fallback...`);
+      return await this.uploadToImgbb(imagePath);
     } catch (error) {
-      logger.error('Error uploading image:', error);
+      logger.error('Error uploading image:', error.message);
+      throw error;
+    }
+  }
+
+  async uploadToGitHub(imagePath) {
+    try {
+      logger.info(`📤 Uploading image to GitHub: ${path.basename(imagePath)}`);
+
+      const imageBuffer = fs.readFileSync(imagePath);
+      const base64Image = imageBuffer.toString('base64');
+      const filename = path.basename(imagePath);
+
+      const url = `https://api.github.com/repos/${config.github.owner}/${config.github.repo}/contents/images/${filename}`;
+
+      const response = await axios.put(url, {
+        message: `Add image: ${filename}`,
+        content: base64Image,
+        branch: config.github.branch
+      }, {
+        headers: {
+          'Authorization': `token ${config.github.token}`,
+          'Accept': 'application/vnd.github.v3+json'
+        }
+      });
+
+      const publicUrl = `https://raw.githubusercontent.com/${config.github.owner}/${config.github.repo}/${config.github.branch}/images/${filename}`;
+      logger.info(`✅ Image uploaded to GitHub: ${publicUrl}`);
+
+      return publicUrl;
+    } catch (error) {
+      logger.error('Error uploading to GitHub:', error.response?.data?.message || error.message);
+      // Fallback to imgbb
+      logger.info(`📤 GitHub upload failed, falling back to imgbb...`);
+      return await this.uploadToImgbb(imagePath);
+    }
+  }
+
+  async uploadToImgbb(imagePath) {
+    try {
+      logger.info(`📤 Uploading image to imgbb: ${path.basename(imagePath)}`);
+
+      const imageBuffer = fs.readFileSync(imagePath);
+      const base64Image = imageBuffer.toString('base64');
+
+      const formData = new FormData();
+      formData.append('image', base64Image);
+      formData.append('key', config.imgbb.apiKey);
+
+      const response = await axios.post('https://api.imgbb.com/1/upload', formData, {
+        headers: formData.getHeaders()
+      });
+
+      const publicUrl = response.data.data.url;
+      logger.info(`✅ Image uploaded to imgbb: ${publicUrl}`);
+
+      return publicUrl;
+    } catch (error) {
+      logger.error('Error uploading to imgbb:', error.response?.data || error.message);
       throw error;
     }
   }
 
   async publishPost(mediaId, caption) {
     try {
-      const url = `https://graph.instagram.com/v${config.instagram.apiVersion}/${config.instagram.businessAccountId}/media`;
+      const url = `https://graph.instagram.com/v${config.instagram.apiVersion}/me/media`;
 
-      // Step 1: Create media container
+      // Step 1: Create media container (using the public imgbb URL)
       const mediaResponse = await axios.post(url, {
-        image_url: mediaId, // In production, this would be the actual uploaded image URL
+        image_url: mediaId,
         caption: caption,
+        media_type: 'IMAGE',
         access_token: config.instagram.accessToken
       });
 
       const creationId = mediaResponse.data.id;
 
       // Step 2: Publish the media
-      const publishUrl = `https://graph.instagram.com/v${config.instagram.apiVersion}/${config.instagram.businessAccountId}/media_publish`;
+      const publishUrl = `https://graph.instagram.com/v${config.instagram.apiVersion}/me/media_publish`;
       const publishResponse = await axios.post(publishUrl, {
         creation_id: creationId,
         access_token: config.instagram.accessToken
