@@ -14,6 +14,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Debug - Check files
+        run: |
+          echo "Directory structure:"
+          ls -la instaposting/ || echo "instaposting not found"
+          ls -la src/instagram-auto-poster/ || echo "src not found"
+
       - name: Create .env file
         run: |
           cd src/instagram-auto-poster
