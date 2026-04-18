@@ -22,7 +22,8 @@ class InstagramPoster {
       const data = fs.readFileSync(fullPath, 'utf8');
       return JSON.parse(data);
     } catch (error) {
-      logger.error(`Error loading JSON: ${filePath}`, error);
+      const fullPath = path.resolve(__dirname, filePath);
+      logger.error(`Error loading JSON from: ${fullPath}`, error);
       return [];
     }
   }
