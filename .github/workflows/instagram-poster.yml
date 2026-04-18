@@ -14,6 +14,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Debug - Check Node and dependencies
+        run: |
+          echo "Node version:"
+          node --version
+          echo "npm version:"
+          npm --version
+          echo "Directory contents:"
+          ls -la src/instagram-auto-poster/ | grep -E "package|node"
+
       - name: Install dependencies
         run: |
           cd src/instagram-auto-poster
