@@ -13,6 +13,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          submodules: 'recursive'
+
+      - name: Ensure data directory exists
+        run: |
+          mkdir -p src/instagram-auto-poster/data
+          if [ ! -f src/instagram-auto-poster/data/posted.json ]; then
+            echo "[]" > src/instagram-auto-poster/data/posted.json
+          fi
 
       - name: Debug - Check files
         run: |
