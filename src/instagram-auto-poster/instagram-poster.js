@@ -8,14 +8,22 @@ const ImageGenerator = require('./image-generator');
 
 class InstagramPoster {
   constructor() {
-    this.postsContent = this.loadJSON(config.paths.postsContent);
-    this.imagePrompts = this.loadJSON(config.paths.imagePrompts);
-    logger.info(`[DEBUG] Constructor: postsContent type: ${typeof this.postsContent}, imagePrompts type: ${typeof this.imagePrompts}`);
-    if (Array.isArray(this.imagePrompts)) {
-      logger.info(`[DEBUG] imagePrompts is an array with ${this.imagePrompts.length} items`);
-    } else if (typeof this.imagePrompts === 'object') {
-      logger.info(`[DEBUG] imagePrompts is an object with keys: ${Object.keys(this.imagePrompts).join(', ').substring(0, 100)}`);
-    }
+    const postsContentRaw = this.loadJSON(config.paths.postsContent);
+    const imagePromptsRaw = this.loadJSON(config.paths.imagePrompts);
+
+    // Normalize postsContent to array format
+    this.postsContent = Array.isArray(postsContentRaw)
+      ? postsContentRaw
+      : postsContentRaw?.posts || [];
+
+    // Normalize imagePrompts to array format
+    this.imagePrompts = Array.isArray(imagePromptsRaw)
+      ? imagePromptsRaw
+      : imagePromptsRaw?.prompts || [];
+
+    logger.info(`[DEBUG] Normalized postsContent to array with ${this.postsContent.length} items`);
+    logger.info(`[DEBUG] Normalized imagePrompts to array with ${this.imagePrompts.length} items`);
+
     this.postedLog = this.loadPostedLog();
     this.imageGenerator = new ImageGenerator();
   }
