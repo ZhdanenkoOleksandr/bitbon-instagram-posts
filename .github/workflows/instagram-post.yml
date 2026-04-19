@@ -2,8 +2,8 @@ name: Instagram Post
 
 on:
   schedule:
-    # 8:47 Kyiv time (5:47 UTC)
-    - cron: '47 5 * * *'
+    # 9:00 Kyiv time (6:00 UTC)
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
