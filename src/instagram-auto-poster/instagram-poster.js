@@ -293,9 +293,9 @@ class InstagramPoster {
 
       const formData = new FormData();
       formData.append('image', base64Image);
-      formData.append('key', config.imgbb.apiKey);
 
-      const response = await axios.post('https://api.imgbb.com/1/upload', formData, {
+      const url = `https://api.imgbb.com/1/upload?key=${config.imgbb.apiKey}`;
+      const response = await axios.post(url, formData, {
         headers: formData.getHeaders()
       });
 

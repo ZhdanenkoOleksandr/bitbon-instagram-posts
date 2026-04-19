@@ -2,8 +2,8 @@ name: Instagram Post
 
 on:
   schedule:
-    # 11:27 AM Kyiv time (08:27 UTC)
-    - cron: '27 8 * * *'
+    # 19:40 Kyiv time (17:40 UTC)
+    - cron: '53 17 * * *'
   workflow_dispatch:
 
 jobs:
@@ -29,23 +29,58 @@ jobs:
           ls -la instaposting/ || echo "instaposting not found"
           ls -la src/instagram-auto-poster/ || echo "src not found"
 
+      - name: Validate required secrets
+        run: |
+          if [ -z "${{ secrets.IMAGE_API_KEY }}" ]; then
+            echo "ERROR: IMAGE_API_KEY secret is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.INSTAGRAM_ACCESS_TOKEN }}" ]; then
+            echo "ERROR: INSTAGRAM_ACCESS_TOKEN secret is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}" ]; then
+            echo "ERROR: INSTAGRAM_BUSINESS_ACCOUNT_ID secret is not set"
+            exit 1
+          fi
+          if [ -z "${{ secrets.GH_TOKEN }}" ]; then
+            echo "ERROR: GH_TOKEN secret is not set"
+            exit 1
+          fi
+          echo "✓ All required secrets are set"
+
       - name: Create .env file
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           cd src/instagram-auto-poster
-          cat > .env << EOF
+          cat > .env <<'ENVEOF'
           INSTAGRAM_BUSINESS_ACCOUNT_ID=${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
           INSTAGRAM_ACCESS_TOKEN=${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           IMAGE_PROVIDER=${{ secrets.IMAGE_PROVIDER }}
           IMAGE_API_KEY=${{ secrets.IMAGE_API_KEY }}
           IMAGE_MODEL=${{ secrets.IMAGE_MODEL }}
+          OPENAI_API_KEY=${{ secrets.IMAGE_API_KEY }}
+          GITHUB_OWNER=ZhdanenkoOleksandr
+          GITHUB_REPO=bitbon-instagram-images
           CRON_TIME=27 11 * * *
           TIMEZONE=Europe/Kyiv
           VERBOSE=false
-          EOF
+          ENVEOF
+          echo "GH_TOKEN=$GH_TOKEN" >> .env
 
       - name: Post to Instagram
+        env:
+          IMAGE_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.IMAGE_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           cd src/instagram-auto-poster
+          echo "=== Debug: .env file contents ==="
+          cat .env
+          echo "=== Debug: GH_TOKEN env var ==="
+          echo "GH_TOKEN=${GH_TOKEN:0:10}..." || echo "GH_TOKEN not set"
+          echo "=== Starting Instagram posting ==="
           node post-immediately.js
 
       - name: Notify on failure

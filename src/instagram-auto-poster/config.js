@@ -8,15 +8,15 @@ module.exports = {
     apiVersion: '18.0'
   },
 
-  // Image Hosting - use GitHub for best compatibility with Instagram
+  // Image Hosting - GitHub config (if needed for fallback)
   github: {
-    token: process.env.GITHUB_TOKEN,
+    token: process.env.GH_TOKEN,
     owner: process.env.GITHUB_OWNER || 'ZhdanenkoOleksandr',
     repo: process.env.GITHUB_REPO || 'bitbon-instagram-images',
     branch: 'main'
   },
 
-  // imgbb Image Hosting Config (fallback)
+  // imgbb Image Hosting Config
   imgbb: {
     apiKey: process.env.IMGBB_API_KEY
   },
