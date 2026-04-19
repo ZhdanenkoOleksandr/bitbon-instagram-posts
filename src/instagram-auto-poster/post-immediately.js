@@ -10,8 +10,7 @@ async function postNow() {
     const requiredEnvVars = [
       'INSTAGRAM_BUSINESS_ACCOUNT_ID',
       'INSTAGRAM_ACCESS_TOKEN',
-      'IMAGE_API_KEY',
-      'IMGBB_API_KEY'
+      'IMAGE_API_KEY'
     ];
 
     const missingVars = requiredEnvVars.filter(varName => !process.env[varName]);
