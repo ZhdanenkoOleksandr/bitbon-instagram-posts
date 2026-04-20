@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   res.status(200).json({
     success: true,
     status: 'healthy',
@@ -6,4 +6,4 @@ export default function handler(req, res) {
     environment: process.env.NODE_ENV || 'development',
     uptime: process.uptime()
   });
-}
+};

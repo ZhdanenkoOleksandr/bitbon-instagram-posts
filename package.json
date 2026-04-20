@@ -2,7 +2,6 @@
   "name": "bitbon-agent-vercel",
   "version": "1.0.0",
   "description": "AI Agent Bitbon System - Vercel Deployment",
-  "type": "module",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",

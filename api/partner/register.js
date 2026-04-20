@@ -1,7 +1,7 @@
 // In-memory database (persists during function lifecycle)
 let partners = {};
 
-export default function handler(req, res) {
+module.exports = (req, res) => {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -58,4 +58,4 @@ export default function handler(req, res) {
       message: error.message
     });
   }
-}
+};

@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+module.exports = (req, res) => {
   // Set CORS headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -30,4 +30,4 @@ export default function handler(req, res) {
     total: 1,
     message: 'Partners list (demo data - use POST /api/partner/register to create real partners)'
   });
-}
+};
